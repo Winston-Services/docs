@@ -10,21 +10,21 @@ We have design Winston to utilize processes that build value and raise the price
 
 ## Gross Revenue Split
 
->   #Group 1)#  20%
->     Winston Academy (Learn to Earn Platform)
+> ### Group 1) - 20%
+> 1. Winston Academy (Learn to Earn Platform)
 
->   #Group 2)# 26%
->     Management 
->     Development
->     Marketing
+> ### Group 2) - 28%
+> 1. Management 
+> 1. Development
+> 1. Marketing
 
->   #Group 3)# 26%
->     Member rewards
+> ### Group 3) - 26%
+> 1. Member rewards
 
->   #Group 4)# 26%
->     Asset holdings
->     Revenue generation
->     Liquidity
+> ### Group 4) - 26%
+> 1. Asset holdings
+> 1. Revenue generation
+> 1. Liquidity
 
 We invite you to check out our documentation here in the Wiki. You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord](https://discord.gg/rickletoken) or on [Telegram](https://t.me/therickle)
 
