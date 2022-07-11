@@ -22,9 +22,9 @@ We have design Winston to utilize processes that build value and raise the price
 > 1. Member rewards
 
 > ### Group 4) - 26%
-> 1. Asset holdings
-> 1. Revenue generation
-> 1. Liquidity
+1. Asset holdings
+1. Revenue generation
+1. Liquidity
 
 We invite you to check out our documentation here in the Wiki. You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord](https://discord.gg/rickletoken) or on [Telegram](https://t.me/therickle)
 
@@ -32,6 +32,12 @@ We invite you to check out our documentation here in the Wiki. You can also find
 ### Index
 
 1. [General API Documentation](https://github.com/Winston-Services/api-documentation)
+
+### Links
+
+* [Winston.Services](https://winston.services)
+* [Demo APP](https://demo.winston.services)
+* [Linktree](https://linktr.ee/winston.services)
 
 
 From our team at Winston Services
