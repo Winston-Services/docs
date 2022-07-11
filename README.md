@@ -6,7 +6,9 @@ This repository contains general documentation, information, links, Official Log
 Michael's vision of Winston is to see Winston as a global learn to earn platform, completely decentralized. With merchants and users utilizing our networks and tools to implement cryptocurrency with in their day to day lives. With tools for our users and member that enable them the ability to spend the crypto they have anywhere that accepts Winston. A simple platform for common people from k-125 to be able to learn and earn any thing and everything about blockchain technology and decentralized finance. Winston is a collaborative network of projects, tools, and networks builts to work together to support a core mission to bring decentralized finance to the common person.
 
 Over time we will build tools and rewards systems that promote earning and learning while enabling our users to interact with blockchain technology on multiple levels.
-We have design Winston to utilize processes that build value and raise the price of our assets steady over time. Once the Academy goes live 20% of gross revenue goes to the Academy's Learn to Earn platform.
+We have designed Winston to utilize processes that build value and raise the price of our assets steady over time.
+
+Once the Academy is completed 20% of the gross revenue goes to the Winston Academy's Learn to Earn platform. Below is a split of how our revenue is divided to insure our longevity and success.
 
 ## Gross Revenue Split
 
