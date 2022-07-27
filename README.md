@@ -1,7 +1,36 @@
 # Winston Documentation Reference
 This repository contains general documentation, information, links, Official Logos, and other details related to Winston Services.
 
-![Winston Services]()
+![Winston Services](https://user-images.githubusercontent.com/29209354/181164451-104d43cd-e29f-41c6-978f-a3434ec9a028.png)
+
+
+## Table Of Contents
+  1)  [Vision Statement](./#vision-statement)
+  1)  [Caretaker Oath](./#caretaker-oath)
+  1)  [Gross Revenue Split](./#gross-revenue-split)
+      1)  [Group 1](./#group-1)
+      1)  [Group 2](./#group-2)
+      1)  [Group 3](./#group-3)
+      1)  [Group 4](./#group-4)
+  1)  [Winston Tokenomics](./#winston-tokenomics)
+  1)  [Winston on decentralized exchanges.](./#winston-on-decentralized-exchanges)
+      1)  [PancakeSwap](./#pancakeswap-exchange)
+      1)  [ApeSwap](./#apeswap-exchange)
+      1)  [SushiSwap](./#sushiswap-exchange)
+      1)  [YieldFields](./#yieldfields-exchange)
+      1)  [CryptoSwapDex](./#cryptoswapdex-exchange)
+  1)  [Current Liquidity Pools](./#current-liquidity-pools)
+      1)  [PancakeSwap](./#pancakeswap-exchange)
+      1)  [ApeSwap](./#apeswap-exchange)
+      1)  [SushiSwap](./#sushiswap-exchange)
+      1)  [YieldFields](./#yieldfields-exchange)
+      1)  [CryptoSwapDex](./#cryptoswapdex-exchange)
+  1)  [Other Resources](./#other-resources)
+  1)  [Links](./#links)
+  1)  [What is Winston Network](./#what-is-winston-network)
+  1)  [Winston Network Locked Liquidity](./#winston-network-locked-liquidity)
+  2)  [Legal Disclaimer](./#legal-disclaimer)
+  3)  [Safety Message](./#safety-message)
 
 ## Vision Statement
 
@@ -12,36 +41,107 @@ We have designed Winston to utilize processes that build value and raise the pri
 
 Once the Academy is completed 20% of the gross revenue goes to the Winston Academy's Learn to Earn platform. Below is a split of how our revenue is divided to insure our longevity and success.
 
+## Caretaker Oath
+> I (state your full name) do hereby solemnly swear (or affirm) that from this day forward in all action in faith and spirit act in trust and honor to represent Winston Holdings and Trust. I will to the best of my ability, preserve, support and defend Winston holdings and trust; , I will not permit a willful violation of law by the trust company, and report any such knowledge to the Board Of Caretakers and legal authorities, that I will bear true faith and allegiance to the same; that I take this obligation freely, without any mental reservation or purpose of evasion; and that I will well and faithfully discharge the duties of the office on which I am about to enter: So help me.
+
 ## Gross Revenue Split
 
-> ### Group 1) - 20%
-1. Winston Academy (Learn to Earn Platform)
+### Group 1)
+* 20% Winston Academy (Learn to Earn Platform)
 
-> ### Group 2) - 28%
-1. Management 
-1. Development
-1. Marketing
+### Group 2)
+* 28% Project Management, Development, Marketing
+  * Management 30%
+  * Development 60%
+  * Marketing 10%
 
-> ### Group 3) - 26%
-1. Member rewards
+### Group 3)
+* 26% Member rewards
 
-> ### Group 4) - 26%
-1. Asset holdings
-1. Revenue generation
-1. Liquidity
+### Group 4)
+* 26% Asset Management, Revenue Generation, and Liquidity 
+* Asset Management 45%
+* Revenue generation 30%
+* Liquidity 25%
 
 We invite you to check out our documentation here in the Wiki. You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord](https://discord.gg/rickletoken) or on [Telegram](https://t.me/therickle)
 
+## Winston Tokenomics
+  1) Initial Mint : 100,000,000
+  1) Locked To Winston Network : 50,000,000 [See Winston Network Locked Liquidity]()
+  1) Burned : [16,000,000 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x000000000000000000000000000000000000dead)
+  1) Trust Wallet : `0xF9B9eE3B0301B511cd5AA4b8D039F63df19C615a`
+      * Asset Management [4,357,751.859833176071519722 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0xf9b9ee3b0301b511cd5aa4b8d039f63df19c615a)
+          * EVM : `0xf9b9ee3b0301b511cd5aa4b8d039f63df19c615a` 
+  1) Team Wallets 
+      * @dreamingrainbow [1,000,000 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x8D54299F385365Fa0733a16265FEc49a0F323da0)
+          * EVM : `0x8D54299F385365Fa0733a16265FEc49a0F323da0`
+      * @gabelopez [1,000,000 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x4FA4388547Df0FC4462a46949B5164D37f113CE8)
+          * EVM : `0x4FA4388547Df0FC4462a46949B5164D37f113CE8`
+      * @jj [2,243.366878793238344693 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x123B8341E08A09ffB2405557fDE50538e584B2AF)
+          * EVM : `0x123B8341E08A09ffB2405557fDE50538e584B2AF`
+      * @paymentdesigner [920,000 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x130Be432f446F1fD0B356023f3b308C36a304642)
+          * EVM : `0x130Be432f446F1fD0B356023f3b308C36a304642`  
+      * @mel [0 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x13FC47c0578793064995e42436d3Ee8Aba061ba8)
+          * EVM : `0x13FC47c0578793064995e42436d3Ee8Aba061ba8`
 
-### Index
+## Winston on decentralized exchanges.
 
-1. [General API Documentation](https://github.com/Winston-Services/api-documentation)
+### PancakeSwap Exchange
 
-### Links
+* Rkl/WIN [Buy with Rickle on PancakeSwap]()
+* BUSD/WIN [Buy with BUSD on PancakeSwap]()
+* BNB/WIN [Buy with BNB on PancakeSwap]()
 
-* [Winston.Services](https://winston.services)
+### ApeSwap Exchange
+
+* Rkl/WIN [Buy with Rickle on PancakeSwap]()
+* BUSD/WIN [Buy with BUSD on PancakeSwap]()
+* BNB/WIN [Buy with BNB on PancakeSwap]()
+
+### SushiSwap Exchange
+
+* Rkl/WIN [Buy with Rickle on PancakeSwap]()
+* BUSD/WIN [Buy with BUSD on PancakeSwap]()
+* BNB/WIN [Buy with BNB on PancakeSwap]()
+
+### YieldFields Exchange
+
+* Rkl/WIN [Buy with Rickle on PancakeSwap]()
+* BUSD/WIN [Buy with BUSD on PancakeSwap]()
+
+### CryptoSwapDex Exchange
+
+* Rkl/WIN [Buy with Rickle on PancakeSwap]()
+* BUSD/WIN [Buy with BUSD on PancakeSwap]()
+* BNB/WIN [Buy with BNB on PancakeSwap]()
+
+## Current Liquidity Pools
+
+### PancakeSwap Liquidity
+
+### ApeSwap Liquidity
+
+### SushiSwap Liquidity
+
+### YieldFields Liquidity
+
+### CryptoSwapDex Liquidity
+
+## Other Resources
+* [General API Documentation](https://github.com/Winston-Services/api-documentation)
+
+## Links
+* [BSCScan](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
+* [Winston.Services](https://winston.services) *Note: Development Underway.
 * [Demo APP](https://demo.winston.services)
 * [Linktree](https://linktr.ee/winston.services)
+* [Coinbrain](https://coinbrain.com/coins/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
+* [Nomics](https://nomics.com/assets/win4-winston)
+
+## What is Winston Network
+
+## Winston Network Locked Liquidity
 
 
 From our team at Winston Services
