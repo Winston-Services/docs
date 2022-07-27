@@ -143,6 +143,25 @@ We invite you to check out our documentation here in the Wiki. You can also find
 
 ## Winston Network Locked Liquidity
 
+## Winston on Discord
+### Winston Slash Commands
+Introducing Winston on Discord Slash commands. Winston is an administrative blockchain oriented service bot. You will find many useful blockchain tools and features packed in to our awesome ecosystem of decentralized financial features, tools and applications.
+
+#### Test Features
+These are some of the test features for Winston's slash command system.
+
+* [Ping](./#ping) Have Winston Reply.
+
+#### Winston Features
+Some of Winston's basic slash command features include many tools to show the power and versitility of blockchain technology.
+
+* [Ask-Winston](./#ask-winston)
+* [Shop-Winston](./#winston-store)
+
+* [Ahwa](./Ahwa-Slash-Commands.md)
+* [Crypto](./Crypto-Slash-Commands.md) 
+* [Server-Store](./Server-Store-Slash-Commands.md)
+
 
 From our team at Winston Services
 We hope you are blessed!
