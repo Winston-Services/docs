@@ -1,7 +1,7 @@
 # Winston Documentation Reference
 This repository contains general documentation, information, links, Official Logos, and other details related to Winston Services.
 
-![Winston Services With Vaultose Security](https://user-images.githubusercontent.com/29209354/178888581-ee89d090-a3ee-4f80-bef9-141242dae454.png)
+![Winston Services With Vaultose Security]()
 
 ## Vision Statement
 
