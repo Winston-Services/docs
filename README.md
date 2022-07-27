@@ -15,15 +15,15 @@ Once the Academy is completed 20% of the gross revenue goes to the Winston Acade
 ## Gross Revenue Split
 
 > ### Group 1) - 20%
-> 1. Winston Academy (Learn to Earn Platform)
+1. Winston Academy (Learn to Earn Platform)
 
 > ### Group 2) - 28%
-> 1. Management 
-> 1. Development
-> 1. Marketing
+1. Management 
+1. Development
+1. Marketing
 
 > ### Group 3) - 26%
-> 1. Member rewards
+1. Member rewards
 
 > ### Group 4) - 26%
 1. Asset holdings
