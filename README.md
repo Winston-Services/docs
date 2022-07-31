@@ -89,44 +89,44 @@ We invite you to check out our documentation here in the Wiki. You can also find
 
 ### PancakeSwap Exchange
 
-* Rkl/WIN [Buy with Rickle on PancakeSwap]()
-* BUSD/WIN [Buy with BUSD on PancakeSwap]()
-* BNB/WIN [Buy with BNB on PancakeSwap]()
+* Rkl/WIN [Buy with Rickle on PancakeSwap](https://pancakeswap.finance/swap?inputCurrency=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9)
+* BUSD/WIN [Buy with BUSD on PancakeSwap](https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737)
+* BNB/WIN [Buy with BNB on PancakeSwap](https://pancakeswap.finance/swap?outputCurrency=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737)
 
 ### ApeSwap Exchange
 
-* Rkl/WIN [Buy with Rickle on PancakeSwap]()
-* BUSD/WIN [Buy with BUSD on PancakeSwap]()
-* BNB/WIN [Buy with BNB on PancakeSwap]()
+* Rkl/WIN [Buy with Rickle on ApeSwap](https://apeswap.finance/swap?inputCurrency=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
+* BUSD/WIN [Buy with BUSD on ApeSwap](https://apeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
+* BNB/WIN [Buy with BNB on ApeSwap](https://apeswap.finance/swap?inputCurrency=ETH&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
 
 ### SushiSwap Exchange
 
-* Rkl/WIN [Buy with Rickle on PancakeSwap]()
-* BUSD/WIN [Buy with BUSD on PancakeSwap]()
-* BNB/WIN [Buy with BNB on PancakeSwap]()
+* Rkl/WIN [Buy with Rickle on SushiSwap](https://app.sushi.com/swap?inputCurrency=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
+* BUSD/WIN [Buy with BUSD on SushiSwap](https://app.sushi.com/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
+* BNB/WIN [Buy with BNB on SushiSwap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
 
 ### YieldFields Exchange
 
-* Rkl/WIN [Buy with Rickle on PancakeSwap]()
-* BUSD/WIN [Buy with BUSD on PancakeSwap]()
+* Rkl/WIN [Buy with Rickle on YieldFields]()
+* BUSD/WIN [Buy with BUSD on YieldFields]()
 
 ### CryptoSwapDex Exchange
 
-* Rkl/WIN [Buy with Rickle on PancakeSwap]()
-* BUSD/WIN [Buy with BUSD on PancakeSwap]()
-* BNB/WIN [Buy with BNB on PancakeSwap]()
+* Rkl/WIN [Buy with Rickle on CryptoSwapDex]()
+* BUSD/WIN [Buy with BUSD on CryptoSwapDex]()
+* BNB/WIN [Buy with BNB on CryptoSwapDex]()
 
 ## Current Liquidity Pools
 
-### PancakeSwap Liquidity
+### RKL/WIN
 
-### ApeSwap Liquidity
+### BNB/WIN
 
-### SushiSwap Liquidity
+### BUSD/WIN
 
-### YieldFields Liquidity
+### USDC/WIN
 
-### CryptoSwapDex Liquidity
+### USDT/WIN
 
 ## Other Resources
 * [General API Documentation](https://github.com/Winston-Services/api-documentation)
@@ -138,6 +138,23 @@ We invite you to check out our documentation here in the Wiki. You can also find
 * [Linktree](https://linktr.ee/winston.services)
 * [Coinbrain](https://coinbrain.com/coins/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
 * [Nomics](https://nomics.com/assets/win4-winston)
+
+## Project Collaborations
+
+### Rickle
+
+#### Rickle Links
+
+* [Rickle On Ethereum](https://etherscan.io/address/0x0ff80a1708191c0da8aa600fa487f7ac81d7818c)
+* [Rickle On Binance](https://bscscan.com/token/0xeca15e1bbff172d545dd6325f3bae7b737906737)
+* [Rickle on Gnosis]()
+* [Rickle on Polygon]()
+* [Rickle on Harmony One]()
+* [Rickle on Nomics](https://nomics.com/assets/rkl-rickle-from-mainnet)
+* [Rickle on Coinbrain](https://coinbrain.com/coins/0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737)
+* []()
+* []()
+
 
 ## What is Winston Network
 
@@ -161,6 +178,21 @@ Some of Winston's basic slash command features include many tools to show the po
 * [Ahwa](./Ahwa-Slash-Commands.md)
 * [Crypto](./Crypto-Slash-Commands.md) 
 * [Server-Store](./Server-Store-Slash-Commands.md)
+
+## Winston Solidity Contracts
+
+### Winston Primary Contracts
+* [Ahwa Token on BSC]()
+* [Winston Token on BSC]()
+* [Rickle Token on Ethereum]()
+* [WUSD on Winston]()
+
+### Winston Airdrop Contracts
+
+* [Winston Airdrop V1]()
+* [Winston Airdrop V2]()
+* [Winston Staking Farm]()
+* [Winston BSC->ETH/ETH->BSC Bridge]()
 
 
 From our team at Winston Services
