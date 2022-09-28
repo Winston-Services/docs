@@ -23,7 +23,6 @@ This repository contains general documentation, information, links, Official Log
       1)  [PancakeSwap](./#pancakeswap-exchange)
       1)  [ApeSwap](./#apeswap-exchange)
       1)  [SushiSwap](./#sushiswap-exchange)
-      1)  [YieldFields](./#yieldfields-exchange)
       1)  [CryptoSwapDex](./#cryptoswapdex-exchange)
   1)  [Other Resources](./#other-resources)
   1)  [Links](./#links)
@@ -104,11 +103,6 @@ We invite you to check out our documentation here in the Wiki. You can also find
 * Rkl/WIN [Buy with Rickle on SushiSwap](https://app.sushi.com/swap?inputCurrency=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
 * BUSD/WIN [Buy with BUSD on SushiSwap](https://app.sushi.com/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
 * BNB/WIN [Buy with BNB on SushiSwap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
-
-### YieldFields Exchange
-
-* Rkl/WIN [Buy with Rickle on YieldFields]()
-* BUSD/WIN [Buy with BUSD on YieldFields]()
 
 ### CryptoSwapDex Exchange
 
