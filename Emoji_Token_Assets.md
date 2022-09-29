@@ -10,15 +10,15 @@
 * 🍅[Tomato](#Tomato) 
 ---
 Basic information.
-| Qty | Fruit Image | WAC Cost | Current Supply |
-|-----|-------------|----------|----------------|
-|100|![Blueberries](./assets/Blueberries_96_x_96.svg)| 0.00000000000001|∞|
-|100|![Mango](./assets/Mango_96_x_96.svg)| 0.000000000000000001 | ∞ |
-|100|![Cherries](./assets/Cherries_96_x_96.svg)| 0.000000000000000001|∞|
-|100|![Banana](./assets/Banana_96_x_96.svg)| 0.000000000000000001|∞|
-|100|![Kiwi](./assets/Kiwi_96_x_96.svg)| 0.000000000000000001|∞|
-|100|![Strawberries](./assets/Strawbeery_96_x_96.svg) |0.0000000000000001|∞|
-|100|![Tomato](./assets/Tomatoe_96_x_96.svg)| 0.000000000000000001|∞|
+| Qty | Name | Fruit Image | WAC Cost | Current Supply |
+|-----|------|-------------|----------|----------------|
+|100|Blueberries|![Blueberries](./assets/Blueberries_96_x_96.svg) | 0.00000000000001|∞|
+|100|Mango|![Mango](./assets/Mango_96_x_96.svg)| 0.000000000000000001 | ∞ |
+|100|Cherries|![Cherries](./assets/Cherries_96_x_96.svg)| 0.000000000000000001|∞|
+|100|Banana|![Banana](./assets/Banana_96_x_96.svg)| 0.000000000000000001|∞|
+|100|Kiwi|![Kiwi](./assets/Kiwi_96_x_96.svg)| 0.000000000000000001|∞|
+|100|Strawberries|![Strawberries](./assets/Strawbeery_96_x_96.svg) |0.0000000000000001|∞|
+|100|Tomato|![Tomato](./assets/Tomatoe_96_x_96.svg)| 0.000000000000000001|∞|
 
 ---    
 ## 🫐Blueberries
@@ -111,7 +111,7 @@ Kiwi Stats
 }
 ```
 ---
-## 🍓Stawberries
+## 🍓Strawberries
 
 The Stawberries token is a part of the Winston fruit collection. Stawberries are used to feed Ahwa, traded for experience, or traded for other assets. Use your Stawberries to keep your Ahwa happy and healthy. Have a bit extra and want to trade them? You can use your balance in the Winston Fruit store to trade for other fruit and/or experience that can be used with in the various parts of Winston Services. 
 
