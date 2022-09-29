@@ -12,13 +12,13 @@
 Basic information.
 | Qty | Fruit Image | WAC Cost | Current Supply |
 |-----|-------------|----------|----------------|
-|100|![Blueberries](./assets/emojis/Blueberries_96_x_96.svg)| 0.00000000000001|∞|
-|100|![Mango](./assets/emojis/Mango_96_x_96.svg)| 0.000000000000000001 | ∞ |
-|100|![Cherries](./assets/emojis/CHerries_96_x_96.svg)| 0.000000000000000001|∞|
-|100|![Banana](./assets/emojis/Banana_96_x_96.svg)| 0.000000000000000001|∞|
-|100|![Kiwi](./assets/emojis/Kiwi_96_x_96.svg)| 0.000000000000000001|∞|
-|100|![Strawberries](./assets/emojis/Strawbeery_96_x_96.svg) |0.0000000000000001|∞|
-|100|![Tomato](./assets/emojis/Tomatoe_96_x_96.svg)| 0.000000000000000001|∞|
+|100|![Blueberries](./assets/Blueberries_96_x_96.svg)| 0.00000000000001|∞|
+|100|![Mango](./assets/Mango_96_x_96.svg)| 0.000000000000000001 | ∞ |
+|100|![Cherries](./assets/Cherries_96_x_96.svg)| 0.000000000000000001|∞|
+|100|![Banana](./assets/Banana_96_x_96.svg)| 0.000000000000000001|∞|
+|100|![Kiwi](./assets/Kiwi_96_x_96.svg)| 0.000000000000000001|∞|
+|100|![Strawberries](./assets/Strawbeery_96_x_96.svg) |0.0000000000000001|∞|
+|100|![Tomato](./assets/Tomatoe_96_x_96.svg)| 0.000000000000000001|∞|
 
 ---    
 ## 🫐Blueberries
