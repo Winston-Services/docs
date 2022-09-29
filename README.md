@@ -149,7 +149,7 @@ You can also find more links to various information about our project on our [Li
 
 
 ## What is Winston Network
-Winston network is comrised of a community of like minded individuals, projects, tools, and blockchain networks.
+Winston network is comprised of a community of like minded individuals, projects, tools, and blockchain networks. Winston is a collaborative network of projects, tools, and networks builts to work together to support a core mission to bring decentralized finance to the common person.
 
 ## Winston Network Locked Liquidity
 50 Million Winston was locked in to the contract instantly retaining 50% of the value of the tokens for ever locked to the contract. This exact amount exist as gas on our Winston EVM which facilitates our gas free operations, that along with other blockchains, api's and loads of code, Winston was born to be an assitant to the blockchain community and educate the common person on the utilities and uses of blockchain technology.
