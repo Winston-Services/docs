@@ -59,18 +59,18 @@ Once the Academy is completed 20% of the gross revenue goes to the Winston Acade
 
 ### Group 4)
 * 26% Asset Management, Revenue Generation, and Liquidity 
-* Asset Management 45%
-* Revenue generation 30%
-* Liquidity 25%
+  * Asset Management 45%
+  * Revenue generation 30%
+  * Liquidity 25%
 
-We invite you to check out our documentation here in the Wiki. You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord](https://discord.gg/rickletoken) or on [Telegram](https://t.me/therickle)
+You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord](https://discord.gg/rickletoken) or on [Telegram](https://t.me/therickle)
 
 ## Winston Tokenomics
   1) Initial Mint : 100,000,000
   1) Locked To Winston Network : 50,000,000 [See Winston Network Locked Liquidity]()
-  1) Burned : [16,000,000 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x000000000000000000000000000000000000dead)
+  1) Burned : [19,999,900 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x000000000000000000000000000000000000dead)
   1) Trust Wallet : `0xF9B9eE3B0301B511cd5AA4b8D039F63df19C615a`
-      * Asset Management [4,357,751.859833176071519722 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0xf9b9ee3b0301b511cd5aa4b8d039f63df19c615a)
+      * [Asset Management](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0xf9b9ee3b0301b511cd5aa4b8d039f63df19c615a)
           * EVM : `0xf9b9ee3b0301b511cd5aa4b8d039f63df19c615a` 
   1) Team Wallets 
       * @dreamingrainbow [1,000,000 WIN](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9?a=0x8D54299F385365Fa0733a16265FEc49a0F323da0)
@@ -146,15 +146,21 @@ We invite you to check out our documentation here in the Wiki. You can also find
 * [Rickle on Harmony One]()
 * [Rickle on Nomics](https://nomics.com/assets/rkl-rickle-from-mainnet)
 * [Rickle on Coinbrain](https://coinbrain.com/coins/0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737)
-* []()
-* []()
 
 
 ## What is Winston Network
+Winston network is comrised of a community of like minded individuals, projects, tools, and blockchain networks.
 
 ## Winston Network Locked Liquidity
+50 Million Winston was locked in to the contract instantly retaining 50% of the value of the tokens for ever locked to the contract. This exact amount exist as gas on our Winston EVM which facilitates our gas free operations, that along with other blockchains, api's and loads of code, Winston was born to be an assitant to the blockchain community and educate the common person on the utilities and uses of blockchain technology.
 
 ## Winston on Discord
+We invite you to join us in our Discord communities. You may find Winston in one of your favorite's already! Here are a few of the one's we recommend!
+[Rickle Token](https://discord.gg/rickletoken)
+[Winston](https://discord.gg/)
+[Ahwa](https://discord.gg/)
+
+
 ### Winston Slash Commands
 Introducing Winston on Discord Slash commands. Winston is an administrative blockchain oriented service bot. You will find many useful blockchain tools and features packed in to our awesome ecosystem of decentralized financial features, tools and applications.
 
@@ -166,8 +172,8 @@ These are some of the test features for Winston's slash command system.
 #### Winston Features
 Some of Winston's basic slash command features include many tools to show the power and versitility of blockchain technology.
 
-* [Ask-Winston](./#ask-winston)
-* [Shop-Winston](./#winston-store)
+* [Ask-Winston](#ask-winston)
+* [Shop-Winston](#winston-store)
 
 * [Ahwa](./Ahwa-Slash-Commands.md)
 * [Crypto](./Crypto-Slash-Commands.md) 
