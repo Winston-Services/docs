@@ -104,17 +104,44 @@ You can also find more links to various information about our project on our [Li
 * BUSD/WIN [Buy with BUSD on SushiSwap](https://app.sushi.com/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
 * BNB/WIN [Buy with BNB on SushiSwap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x75578ebBefe274F240B8E1b5859cA34f342157D9&chainId=56)
 
-### CryptoSwapDex Exchange
-
-* Rkl/WIN [Buy with Rickle on CryptoSwapDex]()
-* BUSD/WIN [Buy with BUSD on CryptoSwapDex]()
-* BNB/WIN [Buy with BNB on CryptoSwapDex]()
-
 ## Current Liquidity Pools
 
 ### RKL/WIN
 
-### BNB/WIN
+* [PancakeSwap](https://bscscan.com/address/0xbb22d416ac55e8d07d9fe78da3cc9919a1c357ce)
+* [CryptoSwapDex](https://bscscan.com/address/0x205564aaf40a4be1b8259fdf8038e278f8ea8d59)
+* [YieldFields](https://bscscan.com/address/0x42a3f09de1d0fa9ba589e4cdcf07be9d9890462c)
+
+### USDC/RKL
+* [PancakeSwap](https://bscscan.com/address/0xabfa93b2b786b6ea3c8d990cc2efe81c880cb09f)
+* [CryptoSwapDex](https://bscscan.com/address/0x47659b88381bf67e15e83d2909d8c22d83da61b1)
+* [ApeSwap](https://bscscan.com/address/0x1ca722acd3e4922a2e043ca849940770c24ed678)
+* [YieldFields](https://bscscan.com/address/0x9eb6a50dfddbfe710298d5139762301de8233d2c)
+
+### USDT/RKL
+* [PancakeSwap](https://bscscan.com/address/0xe01d99478b8a159b957d75455c01104734e05ee1)
+* [CryptoSwapDex](https://bscscan.com/address/0xaa9aab356c36fa6f7a3503e20a1d2a3e1f21c526)
+* [ApeSwap](https://bscscan.com/address/0xec12adb4078bd62f7047cc761f5d3cca3973f284)
+* [SushiSwap](https://bscscan.com/address/0x71ffbe76c7e799a9e7bf8ffcd68e15ea4e175467)
+* [YieldFields](https://bscscan.com/address/0xb3b7766717169facf3eb53b9e1e2c4266f7945f8)
+
+### BUSD/RKL
+* [PancakeSwap](https://bscscan.com/address/0x45d9c665055572970d246f2dd96c74787faef03f)
+* [ApeSwap](https://bscscan.com/address/0x5d23c222dd759cbb82de81933cb145bb7fcb6753)
+* [CryptoSwapDex](https://bscscan.com/address/0x4b89185ba15cec791ef3c6695a35247a1b88fd6c)
+* [SushiSwap](https://bscscan.com/address/0xbe89834476127a1d2461b58d9ff4e5a64f9ae37b)
+* [YieldFields](https://bscscan.com/address/0x7e8c3ad495970e4ce7c26a135f8e3b93cba726c5)
+* 
+
+### WBNB/RKL
+* [SushiSwap](https://bscscan.com/address/0xb0d1a98c5213d60ab4932779eb695943fe1aeb51)
+* [ApeSwap](https://bscscan.com/address/0xbf33d6b4195f5b02d78e176cb908b500cc8b9a39)
+* [PancakeSwap](https://bscscan.com/address/0x4dce12240b37879610601eb70685d396faf06417)
+* [YieldFields](https://bscscan.com/address/0xb5e7ff9a2f33a8a1e31eb79dc14659111f3dd51c)
+* [CryptoSwapDex](https://bscscan.com/address/0x63f73c2393a93293fa8e480ca26a073579503353)
+
+### WBNB/WIN
+https://bscscan.com/address/0x4dce12240b37879610601eb70685d396faf06417
 
 ### BUSD/WIN
 
@@ -122,17 +149,17 @@ You can also find more links to various information about our project on our [Li
 
 ### USDT/WIN
 
+
 ## Other Resources
 * [General API Documentation](https://github.com/Winston-Services/api-documentation)
 
 ## Links
-* [BSCScan](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
+* [Winston on BSCScan](https://bscscan.com/token/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
 * [Winston.Services](https://winston.services) *Note: Development Underway.
 * [Demo APP](https://demo.winston.services)
 * [Linktree](https://linktr.ee/winston.services)
-* [Coinbrain](https://coinbrain.com/coins/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
-* [Nomics](https://nomics.com/assets/win4-winston)
-
+* [Winston on Coinbrain](https://coinbrain.com/coins/0x75578ebbefe274f240b8e1b5859ca34f342157d9)
+* [Winston on Nomics](https://nomics.com/assets/win4-winston)
 ## Project Collaborations
 
 ### Rickle
@@ -141,9 +168,9 @@ You can also find more links to various information about our project on our [Li
 
 * [Rickle On Ethereum](https://etherscan.io/address/0x0ff80a1708191c0da8aa600fa487f7ac81d7818c)
 * [Rickle On Binance](https://bscscan.com/token/0xeca15e1bbff172d545dd6325f3bae7b737906737)
-* [Rickle on Gnosis]()
-* [Rickle on Polygon]()
-* [Rickle on Harmony One]()
+* [Rickle on Gnosis](https://gnosisscan.io/token/0x2df5912439d2d14d04a7742346508505288ef367)
+* [Rickle on Polygon](https://polygonscan.com/token/0x9fdc23fe295104ac55fef09363c56451d0e37cfa)
+* [Rickle on Harmony One](https://explorer.harmony.one/address/0x32eb48b083acce94d994ce885d9ab295c081f884)
 * [Rickle on Nomics](https://nomics.com/assets/rkl-rickle-from-mainnet)
 * [Rickle on Coinbrain](https://coinbrain.com/coins/0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737)
 
@@ -154,11 +181,11 @@ Winston network is comprised of a community of like minded individuals, projects
 ## Winston Network Locked Liquidity
 50 Million Winston was locked in to the contract instantly retaining 50% of the value of the tokens for ever locked to the contract. This exact amount exist as gas on our Winston EVM which facilitates our gas free operations, that along with other blockchains, api's and loads of code, Winston was born to be an assitant to the blockchain community and educate the common person on the utilities and uses of blockchain technology.
 
-## Winston on Discord
+## Connect using Discord
 We invite you to join us in our Discord communities. You may find Winston in one of your favorite's already! Here are a few of the one's we recommend!
-[Rickle Token](https://discord.gg/rickletoken)
-[Winston](https://discord.gg/)
-[Ahwa](https://discord.gg/)
+[Rickle Token](https://discord.gg/ks3hfJacgY)
+[Winston](https://discord.gg/KmpfhAVXMv)
+[Ahwa]([https://discord.gg/](https://discord.gg/tsWvTDJMCJ))
 
 
 ### Winston Slash Commands
@@ -182,9 +209,10 @@ Some of Winston's basic slash command features include many tools to show the po
 ## Winston Solidity Contracts
 
 ### Winston Primary Contracts
-* [Ahwa Token on BSC]()
-* [Winston Token on BSC]()
-* [Rickle Token on Ethereum]()
+* [Ahwa Token on BSC](https://bscscan.com/token/0x3A81caafeeDCF2D743Be893858cDa5AcDBF88c11)
+* [Winston Token on BSC](https://bscscan.com/token/0x75578ebBefe274F240B8E1b5859cA34f342157D9)
+* [Rickle Token on Ethereum](https://etherscan.io/address/0x0ff80a1708191c0da8aa600fa487f7ac81d7818c)
+* [Rickle Token on BSC](https://bscscan.com/token/0xeca15e1bbff172d545dd6325f3bae7b737906737)
 * [WUSD on Winston]()
 
 ### Winston Airdrop Contracts
