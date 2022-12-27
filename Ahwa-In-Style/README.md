@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://raw.githubusercontent.com/Winston-Services/docs/main/Ahwa-In-Style/theme.css" />
+    <link rel="stylesheet" href="theme.css" />
 </head>
 <body>
     <h1>Ahwa In Style</h1>
@@ -30,7 +29,7 @@
                     Thumbnail
                 </th>
                 <th>
-                    Copies
+                    Sold/Minted
                 </th>
                 <th>
                     Link
@@ -50,7 +49,7 @@
                         alt="Friendly Ahwa" width="96px" />
                 </td>
                 <td>
-                    XX
+                    1/2
                 </td>
                 <td>
                     <a href="" target="_blank">Friendly Ahwa On Rarible.</a>
@@ -73,7 +72,7 @@
                         alt="Kind Ahwa" width="96px" />
                 </td>
                 <td>
-                    XX
+                    1/2
                 </td>
                 <td>
                     <a href="" target="_blank">Kind Ahwa On Rarible.</a>
@@ -96,7 +95,7 @@
                         alt="Courteous Ahwa" width="96px" />
                 </td>
                 <td>
-                    XX
+                    0/3
                 </td>
                 <td>
                     <a href="" target="_blank">Courteous Ahwa On Rarible.</a>
@@ -226,9 +225,30 @@
                     <p>DESCRIPTION</p>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    Polite Ahwa
+                </td>
+                <td>
+                    <img src="https://ipfs.io/ipfs/bafybeidd4frwbscfwlc3vxma7gmn5fvkwombydsdzpcpyrveo7q7wbje4a/image.png"
+                        alt="Polite Ahwa" width="96px" />
+                </td>
+                <td>
+                    XX
+                </td>
+                <td>
+                    <a href="https://rarible.com/token/polygon/0x579600290fac9f20d4db01bb0b0dbcd0cc11cf6b:112954410210801360540676792813908180493511188877071264152194072809828958339083?tab=overview" target="_blank">Polite Ahwa On Rarible.</a>
+                </td>
+                <td>
+                    <span class="gold"></span><span class="golden">Golden</span><span class="chain">2x</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <p>DESCRIPTION</p>
+                </td>
+            </tr>
         </tbody>
     </table>
-
 </body>
-
 </html>
