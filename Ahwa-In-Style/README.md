@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="theme.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://raw.githubusercontent.com/Winston-Services/docs/main/Ahwa-In-Style/theme.css" />
 </head>
 <body>
     <h1>Ahwa In Style</h1>
