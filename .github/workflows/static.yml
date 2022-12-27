@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './docs/Ahwa-In-Style'
+          path: './docs-main/Ahwa-In-Style'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
