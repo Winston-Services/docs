@@ -173,7 +173,8 @@ https://bscscan.com/address/0x4dce12240b37879610601eb70685d396faf06417
 * [Rickle on Harmony One](https://explorer.harmony.one/address/0x32eb48b083acce94d994ce885d9ab295c081f884)
 * [Rickle on Nomics](https://nomics.com/assets/rkl-rickle-from-mainnet)
 * [Rickle on Coinbrain](https://coinbrain.com/coins/0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737)
-
+* [Rickel on 
+Arbitrum](https://bscscan.com/token/0x2d0e0ec9c82c67c4a8d7c7e6c176831f52821b33)
 
 ## What is Winston Network
 Winston network is comprised of a community of like minded individuals, projects, tools, and blockchain networks. Winston is a collaborative network of projects, tools, and networks builts to work together to support a core mission to bring decentralized finance to the common person.
