@@ -176,7 +176,7 @@ https://bscscan.com/address/0x4dce12240b37879610601eb70685d396faf06417
 * [Rickel on Arbitrum](https://bscscan.com/token/0x2d0e0ec9c82c67c4a8d7c7e6c176831f52821b33)
 * [Rickel on
 Tokenlicious](https://tokenlicious.com/coin.php?coin-name=Rickle&id=414)
-`<embed type="text/html" src="https://tokenlicious.com/api.php?id=414&contract=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737&widget=true" style="width:400px;max-width:100%;height:300px;">`
+<embed type="text/html" src="https://tokenlicious.com/api.php?id=414&contract=0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737&widget=true" style="width:400px;max-width:100%;height:300px;">`
 ## What is Winston Network
 Winston network is comprised of a community of like minded individuals, projects, tools, and blockchain networks. Winston is a collaborative network of projects, tools, and networks builts to work together to support a core mission to bring decentralized finance to the common person.
 
