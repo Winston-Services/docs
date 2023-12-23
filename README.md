@@ -8,6 +8,22 @@ Join the pulsating beat of Winston's Discord community, where conversations spar
 
 ![Winston Services](https://user-images.githubusercontent.com/29209354/181164451-104d43cd-e29f-41c6-978f-a3434ec9a028.png)
 
+## Meet the Tokens Shaping the Future! 
+
+### Rickle - Beyond Boundaries:
+Rickle, the dynamic currency of choice, powers cross-chain asset movement, bridging diverse chains seamlessly! Our presence spans Ethereum (rkl), BSC (brkl), Polygon (prkl), Gnosis (xrkl), HarmonyOne (1rkl), and Arbitrum (arkl), delivering unparalleled versatility.
+
+### Winston - Rewarding Possibilities:
+Meet Winston, the rewarding token fueling community growth and blockchain education! As a reward for your invaluable contribution to our vibrant ecosystem, Winston grants voting rights and enables the acquisition of Ahwa. One Ahwa, a voter's passport, unlocks the power to influence our project's trajectory.
+
+### Ahwa - Your Voice Matters:
+Ahwa, the token of our voters, represents your voice in steering the project's path! Become an Ahwa voter and influence decisions, shaping the direction, operation, and offerings of our dynamic project.
+
+### WAC - Fueling Education:
+Winston Academy Coin (WAC), a token yet to hit the public scene, holds the essence of our forthcoming online Academy. It's the currency powering our education platform, rewarding educators and students as they dive deep into blockchain technology's core.
+
+## Our Visionary Project:
+Our initiative goes beyond buying and selling assets; it's a catalyst for change! Engage with us in profit-driven asset transactions, educational ventures, and captivating games. Our aim? Bridging the gap, empowering everyone to thrive in the decentralized financial realm! 
 
 ## Table Of Contents
   1)  [Vision Statement](#vision-statement)
