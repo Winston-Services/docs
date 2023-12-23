@@ -68,7 +68,7 @@ Once the Academy is completed 20% of the gross revenue goes to the Winston Acade
   * Revenue generation 30%
   * Liquidity 25%
 
-You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord](https://discord.gg/rickletoken) or on [Telegram](https://t.me/therickle)
+You can also find more links to various information about our project on our [Linktree page](https://linktr.ee/winston.services) or you can join our community in [Discord]([https://discord.gg/rickletoken](https://discord.gg/rickle-897546129108008960)) or on [Telegram](https://t.me/therickle)
 
 ## Winston Tokenomics
   1) Initial Mint : 100,000,000
