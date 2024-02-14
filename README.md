@@ -239,7 +239,7 @@ Some of Winston's basic slash command features include many tools to show the po
 ### Winston Airdrop Contracts
 
 * [Winston Airdrop V1]()
-* [Winston Airdrop V2]()
+* [Winston Airdrop V2](https://bscscan.com/address/0xEACc4Eb30b4Af658eC096f9d8652E7800270A89)
 * [Winston Staking Farm]()
 * [Winston BSC->ETH/ETH->BSC Bridge]()
 
