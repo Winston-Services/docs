@@ -571,7 +571,7 @@ abstract contract Context {
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-contract WinstonAirdropV3 is Ownable, ReentrancyGuard {
+contract WinstonAirdropV3 is Context, ReentrancyGuard {
     using SafeERC20 for IERC20;
 
     constructor() {}
