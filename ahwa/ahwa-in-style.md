@@ -1,0 +1,70 @@
+---
+description: Ahwa In Style is our very first of the Ahwa NFT's
+---
+
+# Ahwa In Style
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://rarible.com/Ahwa-in-Style/items" %}
+
+### Ahwa A way of life.
+
+Join us as we delve into the various aspects of blockchain technology and explore the uses of the technology by demistifiying the processes involved. Ahwa is Winston's companion as he adventures through the various aspects of blockchain technology. Collect these various nft's and see where your Ahwa Adventure's go.
+
+### Ahwa In Style Collection
+
+The Ahwa In Style Collection is the first series of nft's released for the project and consists of 12 various NFT's. Below is a list of the NFT's and their attributes.
+
+### Friendly Ahwa
+
+![Friendly Ahwa](https://ipfs.io/ipfs/bafybeibpik4mvymncqaq2fk3s4y4wgpludy56y7chqws4a2sonxabnt7tu/image.png)
+
+Qty 2 Friendly Ahwa On Rarible. \
+Blue
+
+### Kind Ahwa
+
+![Kind Ahwa](https://ipfs.io/ipfs/bafybeieywipxwbwfkbt5gf5ngibg6edjwpwmem5mdklc7px4lb5i63fcru/image.png)
+
+QTY XX Kind Ahwa On Rarible.Goldenx2
+
+### Courteous Ahwa
+
+![Courteous Ahwa](https://ipfs.io/ipfs/bafybeibrmcvuw7fsv7a6hophkyjl6wka2vb336yldyyqp4c262c2txhw54/image.png)
+
+QTY XX Courteous Ahwa On Rarible.Silver
+
+### Trust Worthy Ahwa
+
+![Trust Worthy Ahwa](https://ipfs.io/ipfs/bafybeibb5hz3ocaxo55dcnzhebky5jzir6qygrr3zu55na2bht5dsyfepu/image.png)
+
+QTY XX Trust Worthy Ahwa On Rarible.Black
+
+### Ahwa Loyalty
+
+![Ahwa Loyalty](https://ipfs.io/ipfs/bafybeial66rr6opzoewkvbpr37jfdzfq4b6vwgtdti2wxtrbqgf4mqbhqe/image.png)\
+QTY XX Ahwa Loyalty On Rarible.Gold
+
+### Ahwa Honor
+
+![Ahwa Honor](https://ipfs.io/ipfs/bafybeiay4uya2gmg3gqvwwmwbcjxobmbagjf7ywl654nxrxum3zglzsgbe/image.png)\
+QTY XX Ahwa Honor On Rarible.Blue
+
+### Ahwa Love
+
+![Ahwa Love](https://ipfs.io/ipfs/bafybeie4dzmdaepanzv5x5rkv4wsq63qsgz6mxwxepop6mi7raqptxpjlq/image.png)\
+QTY XX Ahwa Love On Rarible.Red
+
+### Compassionate Ahwa
+
+![Compassionate Ahwa](https://ipfs.io/ipfs/bafybeibtfxkfbqgxilgexk6xncvqeeavhzb54uffl4dhlltilexpniehce/image.png)
+
+QTY XX Compassionate Ahwa On Rarible.Orange
+
+### Polite Ahwa
+
+![](<../.gitbook/assets/image (19).png>)
+
+QTY XX Polite Ahwa On Rarible.\
+Orange
