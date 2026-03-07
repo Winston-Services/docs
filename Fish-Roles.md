@@ -1,22 +1,23 @@
 # Winston holder roles
+
 Earn more by holding these roles in discord. Random airdrops are given to the community for holding. These roles allow us to tip users in discord for holding our assets.
 
 ## Instructions
-Claim your roles using the link in the server under the #claim-roles channel. 
 
-![Humpback Whale](./assets/HumpbackWhaleMultiplierTable.png)
+Claim your roles using the link in the server under the #claim-roles channel.
 
-![Whale](./assets/WhaleMultiplierTable.png)
+![Humpback Whale](.gitbook/assets/HumpbackWhaleMultiplierTable.png)
 
-![Shark](./assets/SharkMultiplierTable.png)
+![Whale](.gitbook/assets/WhaleMultiplierTable.png)
 
-![Dolphin](./assets/DolphinMultiplierTable.png)
+![Shark](.gitbook/assets/SharkMultiplierTable.png)
 
-![Fish](./assets/FishMultiplierTable.png)
+![Dolphin](.gitbook/assets/DolphinMultiplierTable.png)
 
-![Octopus](./assets/OctopusMultiplierTable.png)
+![Fish](.gitbook/assets/FishMultiplierTable.png)
 
-![Crab](./assets/CrabMultiplierTable.png)
+![Octopus](.gitbook/assets/OctopusMultiplierTable.png)
 
-![Shrimp](./assets/ShrimpMultiplierTable.png)
+![Crab](.gitbook/assets/CrabMultiplierTable.png)
 
+![Shrimp](.gitbook/assets/ShrimpMultiplierTable.png)
