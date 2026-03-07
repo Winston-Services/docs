@@ -1,65 +1,65 @@
 ---
-description: Rickle is our vehicle to drive revenue into education, and our community.
-coverY: 0
+description: >-
+  Rickle (RKL) is the cross-chain utility token and primary trading pair. The
+  deepest liquidity pool on TradeTower. Bridgeable across all Winston chains.
 ---
 
-# Rickle
+# Rickle (RKL)
 
-[Rickle Website](https://rickletoken.com)
+## Overview
 
-\
-Through our daily use of Rickle, we create significant value within the community. This value generation is crucial as it funds the Academy Coin through our trades. By doing so, we not only support the growth of our decentralized financial ecosystem but also pave a clear path for community members to learn and earn. This approach empowers individuals to navigate and thrive in the world of decentralized finance, fostering both personal and collective growth.
+Rickle (RKL) is the cross-chain utility token at the heart of the Winston ecosystem. It serves as the primary trading pair and is the deepest liquidity pool on TradeTower. RKL is available and bridgeable across 6+ blockchains, making it the backbone of the platform's decentralized exchange.
 
-{% hint style="info" %}
-0x0ff80a1708191c0da8aa600fa487f7ac81d7818c
-{% endhint %}
+## Multi-Chain Contracts
 
-Chain : Ethereum (ETH)\
-Token : Rickle\
-Symbol :  rkl\
-Decimals: 18
+RKL is deployed on the following networks (all 18 decimals):
 
-{% hint style="info" %}
-0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737
-{% endhint %}
+| Chain | Contract Address |
+|---|---|
+| **Ethereum** | `0x0FF6ffcFDa92c53F615a4A75D982f399C989366b` |
+| **BSC** | `0xBBE4A35e643cAf5B0A1b89DC34e498D8B7b77BE0` |
+| **Polygon** | `0x9fDC23fe295104Ac55fef09363c56451d0E37CFA` |
+| **Arbitrum** | `0x562e362876c8Aee4744FC2c6aaC8394C312d215d` |
+| **Gnosis** | `0xe2f2a5C287993345a840Db3B0845fbC70f5935a5` |
+| **Harmony One** | `0xe2f2a5C287993345a840Db3B0845fbC70f5935a5` |
 
-Chain : Binanace Smart Chain (BSC)\
-Token : Rickle\
-Symbol :  rkl\
-Decimals: 18
+## Trading Locations
 
-{% hint style="info" %}
-0x9fdc23fe295104ac55fef09363c56451d0e37cfa
-{% endhint %}
+RKL is tradeable on multiple venues:
 
-Chain : Polygon(MATIC/POL)\
-Token : Rickle\
-Symbol :  rkl\
-Decimals: 18
+- **TradeTower** — Internal AMM with deepest RKL/USDT pair
+- **PancakeSwap** — BSC-based DEX
+- **UniSwap** — Ethereum mainnet
+- **QuickSwap** — Polygon network
+- **SushiSwap** — Multiple chains
 
-{% hint style="info" %}
-0x2D0E0Ec9c82C67C4A8d7c7E6c176831f52821B33
-{% endhint %}
+## Bridge Support
 
-Chain : Arbitrium (ARB)\
-Token : Rickle\
-Symbol :  rkl\
-Decimals: 18
+RKL is bridgeable across all 11 supported Winston chains via TradeTower Bridge:
 
-{% hint style="info" %}
-0x2dF5912439d2D14d04a7742346508505288eF367
-{% endhint %}
+- **EVM Chains:** Ethereum, BSC, Polygon, Arbitrum, Gnosis
+- **UTXO Chains:** Bitcoin, Litecoin, Dogecoin, Pepecoin
+- **Other:** Tron
 
-Chain : Gnosis(GNO)\
-Token : Rickle\
-Symbol :  rkl\
-Decimals: 18
+Seamless cross-chain swaps without leaving the platform.
 
-{% hint style="info" %}
-0x32eb48b083acce94d994ce885d9ab295c081f884
-{% endhint %}
+## Economic Role
 
-Chain : Harmony One(ONE)\
-Token : Rickle\
-Symbol :  rkl\
-Decimals: 18
+- **Primary trading pair** — RKL/USDT is the deepest liquidity pool on TradeTower
+- **Core utility** — Used in the vast majority of swap operations
+- **Bridge token** — Default intermediary for cross-chain transfers
+- **Fee generation** — All RKL trades contribute to the academy and reward treasury
+
+## How RKL Drives Value
+
+Every RKL trade on TradeTower generates a 3% swap fee that is distributed:
+- **20%** → Academy treasury (funds WAC redemptions)
+- **26%** → Member rewards (to WIN holders)
+- **28%** → Development (governance-approved disbursements)
+- **6.5%** → Liquidity pools (strengthens RKL pairs)
+
+Growing RKL trading volume directly increases value flowing to all other platform tokens.
+
+## Learn More
+
+Visit [Rickle Website](https://rickletoken.com) for additional information.

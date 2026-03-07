@@ -1,42 +1,89 @@
----
-description: 'Rickle: A Multi-Chain Currency and Gateway for Seamless Asset Movement'
----
-
 # Rickle Utility
 
-Rickle is a versatile digital currency designed to facilitate the efficient movement of assets across multiple blockchain networks. Its primary purpose is to simplify and streamline transactions across various chains, making it a widely-used tool for traders, investors, and crypto enthusiasts. Rickle’s cross-chain functionality means that it can be utilized for seamless asset transfers between different blockchain ecosystems, allowing users to capitalize on opportunities wherever they arise.
+Rickle (RKL) is the cross-chain utility token that powers the Winston ecosystem. Think of it as your passport for moving funds between blockchains and accessing TradeTower’s core liquidity pools.
 
-#### **Expanding Across Multiple Chains**
+## What is RKL?
 
-One of Rickle’s core ambitions is to be available on as many blockchain networks as possible. By expanding across multiple chains, Rickle enables users to take full advantage of trading opportunities, arbitrage between platforms, and generate higher volumes of transactions. The more networks Rickle supports, the more flexible and accessible it becomes, creating an ecosystem where users can move their assets freely and swiftly without having to worry about cross-chain barriers.
+RKL is a cryptocurrency token designed to:
 
-Being present on multiple chains also gives Rickle the edge in terms of liquidity and market access. As more traders and platforms adopt Rickle, it enhances its role as a bridge between blockchain networks, ultimately driving higher trading volume and improving liquidity across exchanges. This level of integration opens up the doors for users to exploit price differences across markets (arbitrage) and maximize their returns through more active trading strategies.
+1. **Bridge blockchains** — Move funds seamlessly between 11 different blockchains
+2. **Provide trading depth** — Powers the primary RKL/USDT pool on TradeTower
+3. **Gateway to Winston** — New users start with RKL to access the broader ecosystem
+4. **Cross-chain arbitrage** — Exploit price differences across different chains
 
-#### **Rickle as the Gateway Token**
+## RKL on 6+ EVM Blockchains
 
-Rickle is not only a multi-chain currency but also the **gateway token** for new users entering the ecosystem. Its ease of use and broad availability make it the preferred choice for newcomers who want to navigate the crypto space. With Rickle, users can effortlessly move assets between different blockchain platforms, which is particularly important for those unfamiliar with the complexities of cross-chain transactions.
+RKL is live on the major Ethereum-compatible networks:
 
-Moreover, Rickle serves as a starting point for users to access other valuable assets within the ecosystem. One such example is **Winston**, another asset available on the Binance Smart Chain (BSC). To make this transition easier, Rickle can be swapped directly for Winston through a dedicated pairing on **PancakeSwap** (BSC). This route offers new users a seamless way to diversify their assets, moving from Rickle to Winston without needing to go through complex steps or intermediate tokens.
+| Blockchain | Contract Address |
+|---|---|
+| **Ethereum** | 0x0ff80a1708191c0da8aa600fa487f7ac81d7818c |
+| **Binance Smart Chain (BSC)** | 0xeca15e1bbff172d545dd6325f3bae7b737906737 |
+| **Polygon (Matic)** | 0x9fdc23fe295104ac55fef09363c56451d0e37cfa |
+| **Gnosis (formerly xDai)** | 0x2dF5912439d2D14d04a7742346508505288eF367 |
+| **Harmony One** | 0x32eb48b083acce94d994ce885d9ab295c081f884 |
+| **Arbitrum** | 0x2D0E0Ec9c82C67C4A8d7c7E6c176831f52821B33 |
 
-#### **The Rickle-Winston Pairing on PancakeSwap (BSC)**
+All six versions are the same token, wrapped for each blockchain. Move RKL between chains using Winston’s bridge.
 
-The Rickle-Winston pairing on PancakeSwap is a key feature that further highlights Rickle’s role as a gateway token. PancakeSwap, a popular decentralized exchange (DEX) on the Binance Smart Chain, enables users to swap Rickle for Winston, providing liquidity and accessibility to both tokens. This pairing simplifies the process for users who are looking to diversify into Winston, while also ensuring that Rickle can be readily used to move between assets and blockchain ecosystems.
+## RKL on Non-EVM Blockchains
 
-By maintaining a strong presence on PancakeSwap and other decentralized platforms, Rickle strengthens its utility as a cross-chain asset mover, while also offering new users an easy entry point into the world of decentralized finance (DeFi).
+RKL is also available on:
+- **Bitcoin** — Via wrapped RKL on compatible sidechains
+- **Litecoin** — Native LTC pegged to RKL value
+- **Pepecoin** — Native PEP with RKL exchange rate
+- **Dogecoin** — Native DOGE pegged to RKL value
+- **Tron** — TRX stablecoin pairing
 
-#### **The Vision for Rickle**
+## How to Use RKL
 
-Rickle’s long-term vision is to become a universal utility token that powers the movement of assets across all major blockchain networks. As more users and platforms adopt Rickle, its role as a cross-chain connector will grow, enabling the crypto ecosystem to become more fluid, interoperable, and accessible to everyone. Whether for trading, arbitrage, or simply moving assets between chains, Rickle is positioned to be a key player in the future of decentralized finance.
+### 1. Bridge Between Chains
 
-In essence, Rickle is designed to be **the go-to currency for asset movement**, a gateway for new users, and a key tool for capitalizing on opportunities across various blockchain platforms.
+Swap RKL from one blockchain to another:
 
+```
+/deposit ETH 0.5        # Deposit Ethereum, receive ETH-backed RKL
+/swap RKL USDT 100      # Trade RKL on TradeTower
+/withdraw BSC 100 RKL   # Withdraw to BSC
+```
 
+### 2. Trade on TradeTower
 
-Currently, Rickle operates on the following blockchain platforms:
+RKL/USDT is the primary pool on TradeTower. Every swap earns fees that support:
+- Academy funding (20%)
+- Development (16.8%)
+- Member rewards (26%)
+- Node infrastructure (7.8%)
+- Liquidity recycling (6.5%)
 
-* Binance Smart Chain: 0xeCa15e1BbFF172D545Dd6325F3Bae7b737906737
-* Ethereum: 0x0ff80a1708191c0da8aa600fa487f7ac81d7818c
-* Polygon: 0x9fdc23fe295104ac55fef09363c56451d0e37cfa
-* Gnosis: 0x2dF5912439d2D14d04a7742346508505288eF367
-* Harmony One: 0x32eb48b083acce94d994ce885d9ab295c081f884
-* Arbitrum: 0x2D0E0Ec9c82C67C4A8d7c7E6c176831f52821B33
+```
+/addLiquidity RKL USDT 100 50    # Add liquidity, earn swap fees
+/swap RKL USDT 100               # Trade RKL
+```
+
+### 3. Access Other Tokens
+
+RKL is your entry point to WIN, WAC, and AHWA. Trade RKL for other ecosystem tokens on TradeTower.
+
+## RKL Listings
+
+RKL is listed on major decentralized exchanges:
+
+- **PancakeSwap** (BSC) — Largest RKL/BUSD and RKL/WIN pools
+- **Uniswap** (Ethereum) — RKL/USDC liquidity
+- **QuickSwap** (Polygon) — RKL/USDC pool
+- **SushiSwap** (multiple chains)
+
+## Why RKL Matters
+
+**Liquidity concentration:** All major trading pairs on TradeTower start with RKL (RKL/USDT, RKL/WIN, RKL/ETH, etc.), making RKL the hub of the ecosystem.
+
+**Multi-chain access:** Whether you hold Bitcoin, Ethereum, Tron, or any of our 11 supported blockchains, RKL is your bridge.
+
+**Fee participation:** RKL liquidity providers earn a share of all swap fees flowing through TradeTower, which are then distributed to academy, development, and rewards.
+
+## Next Steps
+
+- [Swap RKL on TradeTower](../tradetower/) — Trade RKL for other tokens
+- [Bridge RKL between blockchains](../bridge/) — Move RKL across 11 chains
+- [Learn about AHWA Governance](./ahwa-utility.md) — Vote on RKL trading fee changes and other proposals

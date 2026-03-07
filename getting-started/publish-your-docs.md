@@ -1,87 +1,140 @@
 # What is Winston Services
 
-Winston services is made up of blockchain professionals, banking experts, and common day people working together to build a future in decentralized finance.
+Winston Services is a decentralized ecosystem built to bring crypto and blockchain to everyday people. We're a collaborative network of projects, tools, and blockchain networks working together to make learning, trading, and earning simple and accessible.
 
-### Empowering Global Learning and Earning:
+## The Winston Ecosystem at a Glance
 
-Winston emerges as a dynamic decentralized haven, revolutionizing learning and earning opportunities through cryptocurrency. Envisioned by Michael, it's a boundless platform where users, from any walk of life, embrace blockchain and finance education while discovering new pathways to financial independence. Winston Services is the gateway to a decentralized universe, empowering individuals to explore and thrive in the exciting realm of cryptocurrency.
+Winston consists of four core components:
 
-### Unleashing Possibilities:
+### 1. TradeTower DEX (Decentralized Exchange)
 
-Winston's pledge is fueled by a vibrant community committed to integrity and innovation. With revenue streams channeled into key areas – the visionary Academy, relentless Development, gratifying Member Rewards, and strategic Asset Management – Winston pioneers a revolutionary ecosystem where growth knows no limits. From its thrilling presence on top decentralized exchanges to liquidity pools that invigorate trade, Winston ignites the fire of opportunity, welcoming all to partake in its spirited journey.
+TradeTower is Winston's heart — an automated market maker (AMM) that lets you trade tokens instantly on Discord or via REST API. Every trade incurs a 3% fee that supports the ecosystem:
+- Trade any token pair instantly
+- Add liquidity to pools and earn trading fees
+- Works on Discord and REST API
 
-### Journey into the Future:
+### 2. Multi-Chain Bridge
 
-Join the pulsating beat of Winston's Discord community, where conversations spark innovation and ideas flourish. It's more than a platform; it's an ecosystem alive with possibilities, offering a suite of dynamic blockchain commands and solidity contracts, propelling users into a future where learning and earning intertwine seamlessly. Winston – a beacon of empowerment, a gateway to boundless horizons!Meet the Tokens Shaping the Future!
+Move crypto between 11 blockchains seamlessly. RKL bridges across Ethereum, Binance Smart Chain, Polygon, Arbitrum, Gnosis, Bitcoin, Litecoin, Pepecoin, Dogecoin, and Tron. Deposit and withdraw with minimal fees.
 
-#### Rickle - Beyond Boundaries:
+### 3. Winston Academy (Learn-to-Earn)
 
-Rickle, the dynamic currency of choice, powers cross-chain asset movement, bridging diverse chains seamlessly! Our presence spans Ethereum (rkl), BSC (brkl), Polygon (prkl), Gnosis (xrkl), HarmonyOne (1rkl), and Arbitrum (arkl), delivering unparalleled versatility.
+WiseGuy, our AI teacher powered by Claude, helps you learn blockchain concepts through:
+- `/ask` — Get instant answers to any crypto question
+- `/fact` — Learn daily blockchain facts
+- `/quiz` — Earn WAC credits by answering questions correctly
 
-#### Winston - Rewarding Possibilities:
+20% of all platform revenue funds the Academy for continued learning tools and educator rewards.
 
-Meet Winston, the rewarding token fueling community growth and blockchain education! As a reward for your invaluable contribution to our vibrant ecosystem, Winston grants voting rights and enables the acquisition of Ahwa. One Ahwa, a voter's passport, unlocks the power to influence our project's trajectory.
+### 4. AHWA Governance
 
-#### Ahwa - Your Voice Matters:
+AHWA token holders vote on major platform decisions:
+- Variable proposals (change fees, quiz parameters)
+- Disbursement proposals (move revenue to developers, educators, providers)
+- Content proposals (approve new quiz questions and educational facts)
 
-Ahwa, the token of our voters, represents your voice in steering the project's path! Become an Ahwa voter and influence decisions, shaping the direction, operation, and offerings of our dynamic project.
+Voting is gasless — just sign a message with your BSC wallet. No transaction costs.
 
-#### WAC - Fueling Education:
+---
 
-Winston Academy Coin (WAC), a token yet to hit the public scene, holds the essence of our forthcoming online Academy. It's the currency powering our education platform, rewarding educators and students as they dive deep into blockchain technology's core.
+## Four Tokens Powering Winston
 
-### Our Visionary Project:
+### RKL (Rickle) — Cross-Chain Utility Token
 
-Our initiative goes beyond buying and selling assets; it's a catalyst for change! Engage with us in profit-driven asset transactions, educational ventures, and captivating games. Our aim? Bridging the gap, empowering everyone to thrive in the decentralized financial realm!
+The gateway token. RKL bridges all 11 supported blockchains, making it easy to move funds between networks:
+- Listed on Ethereum, BSC, Polygon, Arbitrum, Gnosis, HarmonyOne
+- Primary liquidity pair on TradeTower (RKL/USDT)
+- Core utility for ecosystem navigation
 
-### Vision Statement
+### WIN (Winston) — Community Rewards
 
-Michael (the founder) envisions Winston as a global learn to earn platform, completely decentralized. With merchants and users utilizing our networks and tools to implement cryptocurrency with in their day to day lives. With tools for our users and member that enable them the ability to spend the crypto they have anywhere that accepts Winston. A simple platform for common people from k-125 to be able to learn and earn any thing and everything about blockchain technology and decentralized finance. Winston Services is a collaborative network of projects, tools, and blockchain networks built to work together to support our core mission to bring decentralized finance to the common person.
+Earned by participating in the ecosystem:
+- Holding WIN grants voting rights
+- Enables acquisition of AHWA tokens
+- Rewards for community contributions
+- Locked liquidity ensures long-term value
 
-Over time we will build tools and rewards systems that promote earning and learning while enabling our users to interact with blockchain technology on multiple levels. We have designed Winston Services to utilize processes that build value and raise the price of our assets steady over time.
+### WAC (Winston Academy Coin) — Learn-to-Earn
 
-Once the Academy is completed 20% of the gross revenue goes to the Winston Academy's Learn to Earn platform. Below is a split of how our revenue is divided to insure our longevity and success.
+Earned by taking quizzes and learning:
+- Redeemable for platform tokens
+- Rewards educators and learners
+- Powers the educational economy
+- Treasury-backed (cannot exceed treasury balance)
 
-### What is Winston Network
+### AHWA (Ahwa) — Governance Token
 
-Winston network is comprised of a community of like minded individuals, projects, tools, and blockchain networks. Winston is a collaborative network of projects, tools, and networks builts to work together to support a core mission to bring decentralized finance to the common person.
+Your voice in Winston's future:
+- Vote on proposals (variable, disbursement, content)
+- Gasless voting on BSC
+- One AHWA = one vote per proposal
+- Paired with WIN for arbitrage opportunities
 
-### Winston Network Locked Liquidity
+---
 
-50 Million Winston was locked in to the contract instantly retaining 50% of the value of the tokens for ever locked to the contract. This exact amount exist as gas on our Winston EVM which facilitates our gas free operations, that along with other blockchains, api's and loads of code, Winston was born to be an assitant to the blockchain community and educate the common person on the utilities and uses of blockchain technology.
+## All Winston Slash Commands
 
-### Connect using Discord
+Type these in Discord. REST API equivalents available via `/api/v1/command`.
 
-We invite you to join us in our Discord communities. You may find Winston in one of your favorite's already! Here are a few of the one's we recommend! [Rickle Token](https://discord.gg/ks3hfJacgY) [Winston](https://discord.gg/KmpfhAVXMv) Ahwa
+**Trading & DEX:**
+- `/swap <token1> <token2> <amount>` — Trade instantly
+- `/quote <token1> <token2> <amount>` — See swap rate before trading
+- `/balance` — Check your holdings
+- `/pools` — View all liquidity pools
+- `/addLiquidity <token1> <token2> <amount1> <amount2>` — Add to a pool and earn fees
+- `/removeLiquidity <token1> <token2> <lpAmount>` — Remove liquidity
 
-#### Winston Slash Commands
+**Bridge & Chains:**
+- `/deposit <chain> <amount>` — Deposit from blockchain into Winston
+- `/withdraw <chain> <amount>` — Withdraw from Winston to blockchain
+- `/cheatsheet` — View all withdrawal fees and trading pairs
+- `/chainstatus` — Check blockchain connection health
 
-Introducing Winston on Discord Slash commands. Winston is an administrative blockchain oriented service bot. You will find many useful blockchain tools and features packed in to our awesome ecosystem of decentralized financial features, tools and applications.
+**Learn & Earn:**
+- `/ask <question>` — Ask WiseGuy (AI) any crypto question
+- `/fact` — Get a random blockchain fact
+- `/quiz` — Take a quiz, earn WAC credits
+- `/scores` — Check your quiz stats and leaderboard rank
+- `/redeem <amount>` — Convert WAC credits to platform tokens
 
+**Governance:**
+- `/propose <agent> <key> <value> [title]` — Create a variable proposal
+- `/vote <proposalId> <yes|no>` — Vote on a proposal (sign message, no gas)
+- `/proposals [active|passed|all]` — List governance proposals
+- `/disburse <group> <token> <amount> <address> [chain]` — Create a disbursement proposal
 
+**General:**
+- `/help` — List all commands
+- `/tip <@user> <amount>` — Send tokens to another user
 
-**Winston Features**
+---
 
-Some of Winston's basic slash command features include many tools to show the power and versitility of blockchain technology.
+## How Revenue Works
 
-* Ask-Winston
-* Shop-Winston
-* Ahwa
-* Crypto
-* Server-Store
+3% of every swap on TradeTower is split across:
+- 20% → Winston Academy (education funding)
+- 8.4% → Management
+- 16.8% → Development
+- 2.8% → Marketing
+- 26% → Member Rewards (distributed to asset holders)
+- 11.7% → Asset Management
+- 7.8% → Revenue Generation (paid to network nodes)
+- 6.5% → Liquidity Recycling (reinvested into pools)
 
-### Winston Solidity Contracts
+This sustainable model ensures continuous growth and community rewards.
 
-#### Winston Primary Contracts
+---
 
-* [Ahwa Token on BSC](https://bscscan.com/token/0x3A81caafeeDCF2D743Be893858cDa5AcDBF88c11)
-* [Winston Token on BSC](https://bscscan.com/token/0x75578ebBefe274F240B8E1b5859cA34f342157D9)
-* [Rickle Token on Ethereum](https://etherscan.io/address/0x0ff80a1708191c0da8aa600fa487f7ac81d7818c)
-* [Rickle Token on BSC](https://bscscan.com/token/0xeca15e1bbff172d545dd6325f3bae7b737906737)
+## Join the Community
 
-#### Winston Airdrop Contracts
+- **Discord:** [Winston Services](https://discord.gg/winston)
+- **Documentation:** You're reading it!
+- **Contract Addresses:**
+  - AHWA (BSC): [0x3A81caafeeDCF2D743Be893858cDa5AcDBF88c11](https://bscscan.com/token/0x3A81caafeeDCF2D743Be893858cDa5AcDBF88c11)
+  - WIN (BSC): [0x75578ebBefe274F240B8E1b5859cA34f342157D9](https://bscscan.com/token/0x75578ebBefe274F240B8E1b5859cA34f342157D9)
+  - RKL (Ethereum): [0x0ff80a1708191c0da8aa600fa487f7ac81d7818c](https://etherscan.io/address/0x0ff80a1708191c0da8aa600fa487f7ac81d7818c)
+  - RKL (BSC): [0xeca15e1bbff172d545dd6325f3bae7b737906737](https://bscscan.com/token/0xeca15e1bbff172d545dd6325f3bae7b737906737)
 
-* Winston Airdrop V1
-* [Winston Airdrop V2](https://bscscan.com/address/0xeacc4eb30b4af658ec096f9d8652e7800270a895#code)
+---
 
-From our team at Winston Services We hope you are blessed!
+**Ready to get started?** Jump to the [Quickstart Guide](./quickstart.md) to make your first trade in 5 minutes.

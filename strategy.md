@@ -1,111 +1,252 @@
 ---
-description: Project Architecture Overview
+description: Platform architecture, scaling phases, and long-term vision
 ---
 
 # Strategy
 
-Strategy Document:
+Winston is not just a DEX—it's a platform designed to be accessed from multiple social networks while maintaining a single, unified economy. This section outlines the technical architecture, scaling roadmap, and vision that makes this possible.
 
-&#x20;Tokenomics and Project Architecture Overview The following document outlines the strategic design of our tokenomics system and core tools, developed to leverage both community engagement and decentralized finance. This structure is built on four key pillars—Ahwa, Winston, Winston Academy, and Rickle—each playing a vital role in the project's ecosystem. The system integrates financial mechanics, community incentives, and educational opportunities to create a balanced, self-sustaining environment.&#x20;
+---
 
-Key Components of the Ecosystem
+## Architecture: Agent-Based and Platform-Agnostic
 
-1. Ahwa (Voter Token)
+### The Agent System
 
-Purpose: Ahwa is designed as the governance token, allowing token holders to actively participate in the decision-making process of the community. It serves as the tool for steering development initiatives and shaping the project’s direction.&#x20;
+Every domain in Winston's system is an **Agent**—an independent module with a hook-based lifecycle:
 
-#### Supply:&#x20;
+```
+onBefore → onExecute → onAfter
+```
 
-The total supply of Ahwa is limited to 10,000 tokens, of which only 1,000 are circulating. This constrained supply maintains its scarcity and value. Pairing: Ahwa is paired with Winston tokens in a small portion to maintain high rarity and promote stability.
+Agents communicate through a central **AgentManager** (a singleton) and can be extended independently. This design ensures:
 
-2. Winston (Reward Token)
+- **Modularity** — Each domain (DEX, bridge, education, governance) is isolated but interconnected
+- **Testability** — Agents can be tested independently of the platform layer
+- **Extensibility** — New features are new agents, not changes to core code
+- **Platform Agnosticism** — The same agents run whether you're trading on Discord, REST API, Telegram, or X
 
-#### Purpose:&#x20;
+Current agents:
 
-Winston serves as the primary reward token, designed to be rare and to decrease in circulating supply over time. This deflationary nature increases its value as circulation decreases.&#x20;
+- **MainAgent** — Orchestrator, governance, admin commands
+- **TradeTowerAgent** — DEX engine (swaps, liquidity, pairs)
+- **BridgeAgent** — Cross-chain wallet and deposits/withdrawals
+- **ChainAgent** — Multi-chain listeners (EVM, UTXO, Tron)
+- **L2Agent** — Layer 2 state commitments (Merkle trees, ZK proofs)
+- **P2PAgent** — Mesh networking (state sync, mutation relay)
+- **FinanceAgent** — Revenue distribution, treasury management, node payouts
+- **GovernanceAgent** — AHWA token voting, proposal management
+- **DiscordAgent** — Discord platform integration
+- **WebAgent** — REST/Web API platform integration
+- **WiseGuyAgent** — AI education system
+- **BlackJackAgent** — Mini-game
 
-#### Supply:&#x20;
+### Deployment Tiers
 
-A total of 100 million Winston tokens were created, with 50 million permanently locked in a contract. This action doubled the inherent value of the remaining 50 million tokens.&#x20;
+Because the agent system is platform-agnostic, you can deploy Winston at different tiers depending on your needs:
 
-#### Role:&#x20;
+| Tier | Features | Env Vars Needed |
+|---|---|---|
+| **Headless** | DEX engine + operator console | *(none)* |
+| **Lite** | Headless + Discord bot | `DISCORD_TOKEN` |
+| **Lite+REST** | Lite + REST API | + `WEB_PORT`, `WEB_SECRET` |
+| **Bridge** | Lite + on-chain wallet/bridge/L2 | + `ENCRYPTION_KEY` |
+| **Full** | Bridge + P2P mesh network | + `P2P_BOOTSTRAP`, `P2P_PORT` |
 
-Winston tokens are integral to liquidity pools and are paired with Rickle tokens, creating a dual-backed asset system.
+All tiers share the same codebase and economy. Feature gating happens via environment variables—one Docker image, deployed at different tiers as infrastructure grows.
 
-3. Winston Academy Token (Educational Token)
+---
 
-#### Purpose:&#x20;
+## Scaling: Three Phases Complete
 
-The Academy Token is designated for educational purposes, specifically to incentivize learning and engagement through the Winston Academy. It provides a means for users to earn tokens by participating in learning activities within the ecosystem.&#x20;
+Winston's performance has been optimized through three consecutive scaling phases, each targeting a different bottleneck:
 
-#### Objective:&#x20;
+### Phase 1: Worker Threads (✅ Complete)
 
-The Academy platform aims to cultivate a learning culture within the decentralized finance community, providing a pathway for participants to gain knowledge and earn simultaneously.
+**Problem:** L2 state operations (Merkle tree rebuilds, ZK proofs) blocked the event loop.
 
-4. Rickle (Core Token)
+**Solution:** Move all L2 state to a dedicated worker thread via `L2WorkerBridge` + `L2StateWorker`.
 
-#### Purpose:&#x20;
+**Result:** Per-mutation latency dropped from **7–12ms** to **~0.1ms** (100x improvement). Epoch commits no longer block trade execution.
 
-Rickle is the foundational token within the system, designed for liquidity and trading across multiple chains and assets. It plays a central role in the decentralized financial operations of the project.&#x20;
+### Phase 2: Mutation Batching + Pluggable Store (✅ Complete)
 
-#### Liquidity Strategy:&#x20;
+**Problem:** High-frequency token/pair writes (one LevelDB flush per trade) created I/O bottleneck.
 
-Rickle tokens were used to set up liquidity in over 80 pools, ensuring deep liquidity routes. Additionally, more than 50% of the liquidity was permanently locked in the Winston contract.&#x20;
+**Solution:** Buffer writes in memory and flush in batches. Abstract the store layer to support multiple backends (LevelDB, PostgreSQL).
 
-#### Trading Mechanism:&#x20;
+**Result:** **5–10x reduction in I/O**. Can now sustain bursts of 500+ trades/sec without write stalls. Store backend can be swapped via `STORE_BACKEND` env var (LevelDB default, PostgreSQL optional).
 
-The combination of Rickle and Winston in various pools creates numerous paths for arbitrage and trading, with fees collected from each transaction. This system allows for the automatic balancing of asset values based on market demand, leveraging MEV and arbitration mechanisms.
+### Phase 3: Read Cache Layer (✅ Complete)
 
-### Tokenomics Design Philosophy&#x20;
+**Problem:** Pair lookups in swap/quote were O(n), scanning all pairs.
 
-The foundation of the tokenomics was designed with a clear vision:&#x20;
+**Solution:** Add `#_pairIndex` Map for O(1) pair lookup by token names.
 
-1.  Big Numbers Appeal:&#x20;
+**Result:** **50–100% throughput improvement** on read-heavy commands. All critical paths now O(1) in-memory.
 
-    Recognizing that users are often drawn to high token quantities, we structured the initial supply to be substantial (e.g., 100 million Winston tokens).&#x20;
+### Current Capacity
 
-    However, strategic locking of supply ensured value retention despite high numbers.&#x20;
+With all three phases deployed:
 
+- **Theoretical peak:** ~500–1,500 ops/sec (CPU-bound on BigInt AMM math + Merkle rebuilds)
+- **Discord rate limit:** ~30–40 responses/sec (Discord API constraint)
+- **LevelDB write ceiling:** ~2–8K trades/sec with mutation batching
+- **REST API:** Event loop only (no disk bottleneck)
 
-2.  Profit Mechanism:
+---
 
-    &#x20;Inspired by traditional financial institutions, we incorporated transaction fees into the model. Whenever a trade occurs within the system (Rickle/Winston or their respective pairs), a percentage of the fee is collected, contributing to the project's revenue stream.&#x20;
+## Future Scaling: Phases 5–7 (Planned)
 
+Once phases 1–3 are proven on mainnet, the next phases become viable:
 
-3.  Natural Greed Integration:&#x20;
+### Phase 5: Horizontal Sharding
 
-    The structure incorporates human behavioral economics, where rarity, potential profit, and deflationary mechanisms align to incentivize participation and holding of tokens.
+**Idea:** Partition token pairs across P2P nodes via deterministic routing (`hash(token0|token1) % nodeCount`). Cross-shard swap coordination via mesh protocol.
 
+**Enables:** Linear scaling with node count. 10 nodes = 10x capacity. 100 nodes = 100x capacity.
 
+**Timeline:** Post-mainnet. Requires proven P2P stability and finalized shard boundaries.
 
-### &#x20;Liquidity and Market Dynamics Liquidity Strategy:&#x20;
+### Phase 6: Order Book Trading
 
-The pairing of Rickle and Winston in deep liquidity pools ensures strong trading paths. Additionally, with 50% of the liquidity permanently locked, the system benefits from a natural price floor.&#x20;
+**Idea:** Price-time priority order book alongside AMM. Limit orders, stop-losses, partial fills. Routes through AMM when book is thin.
 
-#### Trading Arbitrage:&#x20;
+**Enables:** Professional trading interface. Lower slippage on large orders. REST/P2P only (Discord/Telegram remain AMM-only).
 
-The large number of trading routes (hundreds of paths) between Rickle, Winston, and external assets creates opportunities for market-making and arbitrage. This design leverages market movements to maintain price stability and capitalize on demand increases.&#x20;
+**Timeline:** Post-Phase 3. Requires mutation batching already deployed.
 
-#### USDT/USDC/BUSD Pools:&#x20;
+**MEV Protection:** Rate-limited API prevents MEV/front-running—no mempool means nothing to sandwich.
 
-Deep liquidity in stablecoin pools means that our asset values are more likely to increase than decrease during periods of high demand. This offers a safety net against significant downward volatility.&#x20;
+### Phase 7: Lending Protocol
 
-## Next Steps:
+**Idea:** Over-collateralized lending on the internal ledger. Collateral locked to deterministic pool addresses. Interest accrues on balances. Liquidation via cron (no bot race).
 
-### P2P Network Development&#x20;
+**Enables:** DeFi lending without cross-chain complexity. Use ZK balance proofs to prove collateral without revealing loan positions.
 
-The next strategic focus is the development of a peer-to-peer (P2P) network that integrates seamlessly with the existing token ecosystem.&#x20;
+**Timeline:** Post-Phase 5. Builds on horizontal sharding to distribute lending load.
 
-This network will:&#x20;
+---
 
-#### Functionality:&#x20;
+## Platform Vision: One Exchange, Many Doors In
 
-Utilize plugin adapters to allow users to exchange data (news, courses, etc.) and provide nodes with the choice to store this information.&#x20;
+TradeTower is the **first client** of a platform-agnostic system. The core pieces—AMM engine, bridge, education system, L2 state, governance—are all client-independent. This means:
 
-#### Initial Demonstration:&#x20;
+### One Economy Across Many Platforms
 
-A proof of concept has been demonstrated via the dev.winston.services dashboard, where a socket messaging app currently connects to a single node. In the final production phase, this will expand to multiple nodes for broader P2P connectivity.&#x20;
+- **Discord users** trade on TradeTower via `/swap`, earn WAC via `/quiz`
+- **Web users** trade via REST API, see the same pool prices, same WAC balance
+- **Telegram users** (future) trade via Telegram bot, access the same DEX
+- **X users** (future) trade and chat in threads, connected to the same economy
 
-#### Conclusion&#x20;
+All users see identical token balances, pair prices, and LP rewards. No separate chains, no bridge risk. One internal ledger, one economy.
 
-This strategy document outlines a comprehensive and carefully balanced tokenomics system. By blending elements of scarcity, reward, governance, and liquidity, we have built an ecosystem that is resilient, valuable, and community-driven. The ongoing development of the P2P network will further enhance the ecosystem's capabilities, making it a robust platform for decentralized finance.
+### One Governance, Many Interfaces
+
+AHWA token holders vote on proposals regardless of which platform they access from. A governance vote passes on Discord the same moment it would pass on Web or Telegram. Proposals execute atomically across all platforms.
+
+### Future Platforms
+
+- **Telegram Bot** — Full command parity with Discord
+- **Web Dashboard** — TradeTower terminal + portfolio management
+- **X (Twitter) Integration** — Trade in threads, get price alerts in DMs
+- **Mobile App** — iOS + Android wrappers around REST API
+- **MetaVerse** — In-game item trading (if/when relevant)
+
+The agent system makes adding platforms straightforward—just build a new client that calls the shared commandRouter.
+
+---
+
+## Revenue Model: Self-Sustaining From Day One
+
+Winston operates on a **simple, transparent revenue model** with zero external capital requirements:
+
+### The 3% Swap Fee
+
+Every trade on TradeTower incurs a **3% AMM fee**. This is collected into the treasury and distributed via the 8-group split:
+
+| Group | % of Revenue | Outflow |
+|---|---|---|
+| Academy | 20% | Auto-funds WAC redeem treasury |
+| Development | 16.8% | Governance disbursement to dev multisig |
+| Management | 8.4% | Governance disbursement to mgmt multisig |
+| Marketing | 2.8% | Governance disbursement to marketing multisig |
+| Member Rewards | 26% | Auto-distributes to asset holders based on 30-day holdings |
+| Asset Management | 11.7% | Governance disbursement to provider addresses |
+| Node Operators | 7.8% | Auto-pays eligible bridge nodes (scoring via uptime + code integrity) |
+| Liquidity Recycling | 6.5% | Auto-adds back to LP pools (compounding revenue loop) |
+
+### Why This Works
+
+- **No VC dilution** — The team doesn't own shares; community owns the DEX
+- **No ICO** — No pre-mine, no early investor discounts
+- **No ads** — Revenue comes from economic activity, not attention harvesting
+- **Sustainable at any scale** — 1 trade or 1M trades, the split is identical
+- **Feedback loop** — The more people trade (legitimately), the more funding every group gets
+
+### Operational Costs
+
+- **Bridging:** Paid from withdrawal fees (gas costs recovered from users)
+- **L2 Anchoring:** ~0.02 PEP per epoch commit (~38K PEP for 10 years of operation)
+- **Node Operations:** Paid from node operator pool
+- **Development:** Funded from development group pool
+
+No external bills. Everything is self-contained.
+
+---
+
+## Governance: AHWA Token Holders Decide
+
+All strategic decisions flow through **AHWA token voting**:
+
+- **Variable proposals** — Change network parameters, upgrade agent settings
+- **Disbursement proposals** — Move funds from groups to provider addresses (e.g., dev contractor payouts)
+- **Content proposals** — Approve new quiz questions and facts for WiseGuy education system
+- **Genesis finalization** — Lock new pair/token creation behind governance (optional security hardening)
+
+Votes are verified on-chain using signed messages (BSC balance check). One AHWA = one vote. No vote selling (votes are ephemeral; only the signature matters).
+
+---
+
+## Technical Highlights
+
+### Multi-Chain Support
+
+- **EVM Chains:** Ethereum, BSC, Arbitrum, Polygon, Gnosis (all use BIP44 `m/44'/60'/0'/0/n`)
+- **UTXO Chains:** Bitcoin, Pepecoin, Litecoin, Dogecoin (BIP84 native SegWit)
+- **Tron:** TRC-20 tokens, TRX native transfers (BIP44 `m/44'/195'/0'/0/n`)
+
+Withdrawals can split across multiple on-chain wallets. No single point of failure.
+
+### Encrypted Key Management
+
+The BIP39 mnemonic is encrypted with AES-256-GCM and stored in `.keyfile`. On first boot, an encryption key is generated and printed (store it). On subsequent boots, the key is provided via `ENCRYPTION_KEY` env var. No raw mnemonic in process memory.
+
+### Layer 2 State Commitments
+
+All token balances and pair reserves are anchored to Pepecoin via OP_RETURN inscriptions. Merkle roots are committed adaptively—every epoch when activity is high, every 24 hours when quiet. This provides:
+
+- **Audit trail** — Full history on-chain
+- **Node recovery** — New nodes can rebuild state from Pepecoin
+- **Proof of reserve** — Cryptographic evidence that internal balances match on-chain collateral
+
+### Zero-Knowledge Privacy Proofs
+
+Users can generate ZK balance proofs (`/prove`) that verify "I hold ≥ X of token Y" without revealing the exact balance. Powered by Poseidon hashing (ZK-friendly), circom circuits, and PLONK proofs. Used for:
+
+- **Privacy-preserving lending** (Phase 7)
+- **Collateral verification** without exposing position size
+- **Governance voting** (optional, for whales who want privacy)
+
+---
+
+## Summary
+
+Winston's strategy is simple but ambitious:
+
+1. **Build a single, powerful DEX** that runs everywhere (Discord, Web, Telegram, X)
+2. **Fund it entirely from trading fees** (no VC, no ICO)
+3. **Govern it via community voting** (AHWA token holders decide direction)
+4. **Scale it horizontally** via P2P sharding (eventual 100x+ capacity)
+5. **Extend it to lending + order books** once infrastructure is mature
+
+The result: A decentralized exchange owned by its users, funded by its activity, and governed by its community. Not a company, not a protocol—an **economy**.

@@ -1,23 +1,48 @@
 ---
 description: >-
-  Meet Ahwa, your companion during your adventures in decentralized finance.
-  Ahwa is the voice of our community and the force that drives our future.
-coverY: 0
+  AHWA is the governance token. One token equals one vote on platform
+  decisions. Gasless voting with signed messages.
 ---
 
-# Ahwa
+# AHWA
 
-Ahwa Holders who hold 1 Ahwa are eligible to vote to drive change with in our project.&#x20;
+## Overview
 
-{% hint style="danger" %}
-The only way to get Ahwa is through Winston(WIN).
-{% endhint %}
+AHWA is the governance token for the Winston ecosystem. It gives token holders a voice in platform decisions, treasury management, and content approval.
 
-{% hint style="info" %}
-0x3A81caafeeDCF2D743Be893858cDa5AcDBF88c11
-{% endhint %}
+## Voting Power
 
-Chain : Binance Smart Chain (BSC)\
-Token : Ahwa\
-Symbol :  AHWA\
-Decimals: 18
+- **One token = One vote** on any governance proposal
+- **Voting power** is determined by your AHWA balance on BSC at the time you vote
+- **Gasless voting** — Sign a message to vote, no transaction needed
+- Voting is secure via message signature recovery
+
+## Three Proposal Types
+
+### Variable Proposals
+Change platform settings and parameters. Examples: fee adjustments, contract updates, operational thresholds.
+
+### Disbursement Proposals
+Allocate treasury funds to specific recipients. Examples: development team payouts, marketing budget, partnerships.
+
+### Content Proposals
+Approve or reject quiz questions and blockchain facts submitted for the academy. Ensures quality of educational content through community vote.
+
+## How to Vote
+
+1. Ensure you hold AHWA on BSC
+2. Review an active proposal
+3. Sign a message with your wallet (no gas fees)
+4. Your vote is recorded and tallied automatically
+
+## Contract Details
+
+**BSC Contract Address:** `0xf33A7A6E48B6e3F4F1f8DB080B3b4eaD8E8AB07E`
+
+**Chain:** Binance Smart Chain (BSC)
+**Token Name:** AHWA
+**Decimals:** 18
+
+## Acquiring AHWA
+
+AHWA is acquired through participation in the Winston ecosystem. See the main Tokens page for details on how the four tokens interact.

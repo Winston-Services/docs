@@ -1,45 +1,106 @@
+# Getting Started with Winston
+
+Welcome to Winston! Whether you're brand new to crypto or a seasoned trader, this 5-minute quickstart will get you trading, learning, and earning right away.
+
+## Step 1: Join the Winston Discord
+
+Head to the [Winston Discord server](https://discord.gg/winston) and accept the server rules. This is your hub for all Winston features, updates, and community support.
+
+## Step 2: Check Available Commands
+
+Type `/help` in any Discord channel to see all Winston commands and what they do.
+
+## Step 3: Check Your Balance
+
+Type `/balance` to see all tokens you currently hold in your Winston wallet.
+
+```
+/balance
+```
+
+Your balance updates automatically every time you swap, deposit, or trade.
+
+## Step 4: Make Your First Swap
+
+Ready to trade? Here's how to swap 100 RKL for USDT:
+
+```
+/swap RKL USDT 100
+```
+
+Winston will show you exactly how much USDT you'll receive before you confirm the swap. Choose your slippage tolerance and complete the trade in seconds.
+
+## Step 5: Ask WiseGuy (Our AI Teacher)
+
+Curious about DeFi concepts but don't want to read a textbook? Ask WiseGuy:
+
+```
+/ask "What is an AMM?"
+```
+
+WiseGuy uses Claude AI to give beginner-friendly explanations. You can ask follow-up questions and build on previous answers for multi-turn conversations.
+
+## Step 6: Take a Quiz and Earn WAC
+
+Build your knowledge and earn rewards at the same time:
+
+```
+/quiz
+```
+
+Answer blockchain and Winston questions. Get them right and earn WAC credits. Accumulate points toward your next reward level.
+
+## Step 7: Deposit Crypto from a Blockchain
+
+Ready to move funds into Winston? Let's say you have Bitcoin and want to deposit 0.1 BTC:
+
+```
+/deposit BTC 0.1
+```
+
+Replace `BTC` with your blockchain (ETH, BSC, Polygon, Tron, etc.). Winston gives you a deposit address. Send your funds there, and they'll appear in your wallet within minutes.
+
+**Privacy note:** Deposit confirmations are sent to your DMs, not the public channel.
+
+## Step 8: Add Liquidity and Earn Fees
+
+Want to earn passive income? Add liquidity to a trading pool:
+
+```
+/addLiquidity RKL USDT 100 50
+```
+
+This adds 100 RKL and 50 USDT to the RKL/USDT pool. You get LP tokens representing your share. Every time someone swaps in that pool, you earn 3% of the fee.
+
+## Step 9: Withdraw Back to Your Blockchain
+
+When you're ready to move funds out:
+
+```
+/withdraw BTC 0.05
+```
+
+Specify the blockchain and amount. Winston deducts a small network fee and sends it to your on-chain address.
+
+## Step 10: Check the Cheatsheet for Current Rates
+
+Want to know current swap rates and withdraw fees for all chains?
+
+```
+/cheatsheet
+```
+
+This shows you all trading pairs, liquidity pool status, and per-chain withdrawal costs.
+
 ---
-description: >-
-  Let's get you started with Winston! There are several following pages to
-  explain in depth who we are as a community and how to become a part of it all!
+
+## Prefer REST API?
+
+Developers and advanced users: Winston has a full REST API at `https://api.winston.services/api/v1/command`. All Discord commands work the same way over HTTP with JWT or API key authentication. See the [Developers](../developers/api.md) section for details.
+
 ---
 
-# Getting Started
-
-<figure><img src="../.gitbook/assets/image 55.png" alt=""><figcaption><p>Winston Crypto</p></figcaption></figure>
-
-Whether you are a seasoned trader or just starting your crypto journey, you will find with Winston and other supporting assets, an opportunity to quickly immerse yourself in the world of crypto and start/continue to learn. You are not alone. At any time as you are familiarizing, if you have a question, feel free to stop in our discord which you can join below for assistance.
-
-Embark on your crypto journey with confidence, whether you're an experienced trader or just starting. Winston and other supporting assets provide the perfect opportunity to dive into the world of crypto and enhance your learning. You are part of a vibrant community. Anytime you have a question, join our Discord below for assistance.
-
-Join our vibrant crypto community, whether a seasoned trader or beginner, to enhance your crypto journey with Winston and other assets. For questions, join our Discord for support.
-
-### Acquisition Of Assets
-
-There are numerous opportunities to obtain our assets. Start by [joining our discord](https://discord.gg/rickle-897546129108008960) server, who know's you might just find an airdrop.
-
-To gain access to our assets, consider the following:
-
-* Join our Discord server for updates and opportunities.
-* Stay informed about potential airdrops.
-* Discover the different ways to acquire our assets through exchanges, including exploring decentralized exchange options. For more information, visit our [Decentralized Exchange Listing page](../exchanges/decentralized-exchanges.md).
-
-### Earn your Roles
-
-Once you have joined our Discord server, and have gone through the process of obtaining some assets, you will be able to access an array of dynamic and engaging roles available for holding. These roles are designed to enhance your experience within our community, offering additional benefits, exclusive content, and the opportunity to participate in special events. Make sure to explore all the roles available and select those that best align with your interests and objectives in our digital ecosystem. Dive in and start discovering the many ways you can engage and contribute to our vibrant community
-
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Humpback Whale Role</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+**Next steps:**
+- Explore the [Winston Services Overview](./publish-your-docs.md) to understand the full ecosystem
+- Learn about [RKL Utility](./rickle-utility/README.md) and [AHWA Governance](./rickle-utility/ahwa-utility.md)
+- Check out [TradeTower DEX](../tradetower/) for advanced trading features
