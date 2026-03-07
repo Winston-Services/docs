@@ -177,7 +177,7 @@ Save the encryption key in a secure location. It's needed for every subsequent b
 * **CPU**: 1–4 cores (depends on tier and trading volume)
 * **RAM**: 512MB (Headless) to 2GB (Full with all features)
 * **Disk**: 10GB for LevelDB state + circuit artifacts
-* **Network**: 100Mbps+ sufficient, typical bandwidth \~1–10Mbps
+* **Network**: 100Mbps+ sufficient, typical bandwidth ~1–10Mbps
 
 ## Monitoring
 

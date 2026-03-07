@@ -13,7 +13,7 @@ EVM chains run the Ethereum Virtual Machine and support smart contracts. All EVM
 * **Wallet format:** Hex (0x...)
 * **Supported tokens:** ETH + ERC-20 (USDT, USDC, DAI, and others)
 * **Characteristics:** Highest liquidity, highest gas fees, most established
-* **Finality:** \~12 seconds
+* **Finality:** ~12 seconds
 
 ### BNB Smart Chain (BSC)
 
@@ -22,7 +22,7 @@ EVM chains run the Ethereum Virtual Machine and support smart contracts. All EVM
 * **Wallet format:** Hex (0x...) — same as Ethereum
 * **Supported tokens:** BNB + BEP-20 (USDT, USDC, DAI, and others)
 * **Characteristics:** Low fees, fast blocks, strong DeFi ecosystem
-* **Finality:** \~3 seconds
+* **Finality:** ~3 seconds
 * **Governance:** AHWA token lives on BSC
 
 ### Arbitrum (ARB)
@@ -32,7 +32,7 @@ EVM chains run the Ethereum Virtual Machine and support smart contracts. All EVM
 * **Wallet format:** Hex (0x...)
 * **Supported tokens:** ETH + ERC-20 (USDT, USDC, and others)
 * **Characteristics:** Layer 2 rollup, very low fees, fast finality
-* **Finality:** \~1 second
+* **Finality:** ~1 second
 
 ### Polygon (POL)
 
@@ -41,7 +41,7 @@ EVM chains run the Ethereum Virtual Machine and support smart contracts. All EVM
 * **Wallet format:** Hex (0x...)
 * **Supported tokens:** POL + ERC-20 (USDT, USDC, and others)
 * **Characteristics:** Sidechain/plasma, low fees, high throughput
-* **Finality:** \~2 seconds
+* **Finality:** ~2 seconds
 
 ### Gnosis (GNO)
 
@@ -50,7 +50,7 @@ EVM chains run the Ethereum Virtual Machine and support smart contracts. All EVM
 * **Wallet format:** Hex (0x...)
 * **Supported tokens:** xDAI + ERC-20 (limited ecosystem)
 * **Characteristics:** DAO-focused, extremely low fees, niche adoption
-* **Finality:** \~5 seconds
+* **Finality:** ~5 seconds
 
 EVM Derivation: All EVM chains use BIP44 path `m/44'/60'/0'/0/{index}`. This means your Ethereum address is the same format as your BSC, Arbitrum, Polygon, and Gnosis addresses — same private key, same address on all five chains.
 
@@ -64,7 +64,7 @@ UTXO chains use an unspent transaction output model. Each withdrawal consumes ou
 * **Wallet format:** Bech32 SegWit (bc1q...)
 * **Derivation path:** BIP84 (m/84'/0'/0'/0/{index})
 * **Characteristics:** Most secure, most recognized, highest value
-* **Confirmation time:** \~10 minutes, \~6 confirmations finality (\~60 min)
+* **Confirmation time:** ~10 minutes, ~6 confirmations finality (~60 min)
 * **Block size:** 4 MB with SegWit
 
 ### Litecoin (LTC)
@@ -73,7 +73,7 @@ UTXO chains use an unspent transaction output model. Each withdrawal consumes ou
 * **Wallet format:** Bech32 SegWit (ltc1q...)
 * **Derivation path:** BIP84 (m/84'/2'/0'/0/{index})
 * **Characteristics:** Faster than Bitcoin, more affordable fees
-* **Confirmation time:** \~2.5 minutes, \~6 confirmations (\~15 min)
+* **Confirmation time:** ~2.5 minutes, ~6 confirmations (~15 min)
 * **Block size:** 4 MB with SegWit
 
 ### Pepecoin (PEP)
@@ -82,8 +82,8 @@ UTXO chains use an unspent transaction output model. Each withdrawal consumes ou
 * **Wallet format:** Base58 (P...)
 * **Derivation path:** BIP44 (m/44'/3434'/0'/0/{index})
 * **Characteristics:** Community-driven, meme coin, small but active ecosystem
-* **Confirmation time:** \~1 minute
-* **L2 Anchoring:** TradeTower uses Pepecoin OP\_RETURN transactions to anchor L2 state on-chain (write-only, no read costs)
+* **Confirmation time:** ~1 minute
+* **L2 Anchoring:** TradeTower uses Pepecoin OP_RETURN transactions to anchor L2 state on-chain (write-only, no read costs)
 
 ### Dogecoin (DOGE)
 
@@ -91,7 +91,7 @@ UTXO chains use an unspent transaction output model. Each withdrawal consumes ou
 * **Wallet format:** Base58 (D...)
 * **Derivation path:** BIP44 (m/44'/3'/0'/0/{index})
 * **Characteristics:** Oldest meme coin, strong community, robust infrastructure
-* **Confirmation time:** \~1 minute
+* **Confirmation time:** ~1 minute
 * **Block size:** 1 MB
 
 UTXO Notes: Bitcoin and Litecoin use BIP84 native SegWit for lower fees and smaller transactions. Pepecoin and Dogecoin use BIP44 P2PKH for broader compatibility.
@@ -107,7 +107,7 @@ Account-based chains use smart contract accounts with nonces instead of UTXOs.
 * **Derivation path:** BIP44 (m/44'/195'/0'/0/{index})
 * **Supported tokens:** TRX + TRC-20 (USDT, USDC, and others)
 * **Characteristics:** Fast, low cost, energy-based fee model
-* **Finality:** \~3 seconds
+* **Finality:** ~3 seconds
 * **Energy:** TRC-20 transfers use ENERGY instead of gas (faster, cheaper)
 
 ## Choosing a Chain
@@ -148,8 +148,8 @@ Each chain has minimum and maximum amounts to prevent dust and manage risk. Limi
 
 Example minimums:
 
-* Bitcoin: 0.001 BTC (\~$40)
-* Ethereum: 0.1 ETH (\~$200)
+* Bitcoin: 0.001 BTC (~$40)
+* Ethereum: 0.1 ETH (~$200)
 * USDT on Polygon: 50 USDT
 
 Maxima prevent TradeTower from holding too much on any single wallet. If you need to move more, split into multiple transactions.

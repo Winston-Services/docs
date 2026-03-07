@@ -14,7 +14,7 @@ Winston is a complete DeFi ecosystem built on community governance and education
 
 #### TradeTower — The Exchange
 
-A Discord-based decentralized exchange (DEX) where you can trade tokens instantly. It uses the same constant-product AMM formula as Uniswap (x \* y = k), but without smart contract risk. Every swap you make generates a 3% fee that funds the entire ecosystem: academy payouts, community rewards, platform development, and node operators.
+A Discord-based decentralized exchange (DEX) where you can trade tokens instantly. It uses the same constant-product AMM formula as Uniswap (x * y = k), but without smart contract risk. Every swap you make generates a 3% fee that funds the entire ecosystem: academy payouts, community rewards, platform development, and node operators.
 
 Also available via REST API for programmatic access.
 
@@ -75,7 +75,7 @@ Winston bridges to:
 
 **Community governed.** AHWA token holders vote on platform direction. No black-box executive decisions.
 
-**Transparent and on-chain verified.** L2 state is anchored on-chain (Pepecoin OP\_RETURN) with cryptographic proofs. Anyone can verify the platform's ledger.
+**Transparent and on-chain verified.** L2 state is anchored on-chain (Pepecoin OP_RETURN) with cryptographic proofs. Anyone can verify the platform's ledger.
 
 **Built for everyone.** Commands are simple. Education is built in. You don't need to understand Merkle trees or ZK proofs to use Winston — but if you want to, we explain it.
 

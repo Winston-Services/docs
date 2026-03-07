@@ -144,7 +144,7 @@ No external capital is required. The platform grows organically from its own fee
 
 * Daily volume: 10,000 USDT
 * Daily fees: 300 USDT
-* Annual fees: \~109,500 USDT
+* Annual fees: ~109,500 USDT
 * Annual group distributions:
   * Academy: 21,900 USDT
   * Development: 29,448 USDT
@@ -156,7 +156,7 @@ No external capital is required. The platform grows organically from its own fee
 
 * Daily volume: 100,000 USDT
 * Daily fees: 3,000 USDT
-* Annual fees: \~1,095,000 USDT
+* Annual fees: ~1,095,000 USDT
 * Annual group distributions:
   * Academy: 219,000 USDT
   * Development: 294,480 USDT

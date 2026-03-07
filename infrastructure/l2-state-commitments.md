@@ -6,7 +6,7 @@ TradeTower operates as a Layer 2 system where all trading happens internally on 
 
 Every trade, deposit, and withdrawal updates the internal state. Instead of waiting for slow blockchain confirmations, TradeTower commits these changes instantly. But periodically — typically every few hours or more frequently during high trading volume — the system captures a snapshot of this state and writes a compact proof to the Pepecoin blockchain.
 
-This proof is an 80-byte message called an epoch commit, written as an OP\_RETURN transaction on the Pepecoin blockchain. It contains a single hash: the state root. Think of this like taking a fingerprint of the entire system's state at one moment in time.
+This proof is an 80-byte message called an epoch commit, written as an OP_RETURN transaction on the Pepecoin blockchain. It contains a single hash: the state root. Think of this like taking a fingerprint of the entire system's state at one moment in time.
 
 ## Three Roots, One Truth
 
@@ -65,9 +65,9 @@ This is decentralization without requiring massive computation or expensive roll
 ## Implementation Details
 
 * **Chain**: Pepecoin (merged-mined with Bitcoin, highly secure)
-* **Commitment method**: OP\_RETURN for epochs, P2SH inscriptions for full snapshots
+* **Commitment method**: OP_RETURN for epochs, P2SH inscriptions for full snapshots
 * **Hash functions**: keccak (StateTree), Poseidon (ZKTree/BalanceTree)
 * **Frequency**: 1–24 hours, adapts to volume
-* **Cost**: ~~0.02 PEP per epoch (~~$0.0001 USD), \~$0.50 for monthly full snapshot
+* **Cost**: ~0.02 PEP per epoch (~$0.0001 USD), ~$0.50 for monthly full snapshot
 
 No staking. No complex consensus. Just immutable, auditable state on a blockchain.

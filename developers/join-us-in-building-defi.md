@@ -14,7 +14,7 @@ Under the hood:
 
 * **Custom AMM engine** — Uniswap v2 math (constant-product), built in Node.js with BigInt precision
 * **Multi-chain bridge** — Custodial hot wallet pool across 11 blockchains (EVM, UTXO, Tron)
-* **L2 state commitments** — On-chain anchoring via Pepecoin OP\_RETURN + Pepinals inscriptions
+* **L2 state commitments** — On-chain anchoring via Pepecoin OP_RETURN + Pepinals inscriptions
 * **ZK proofs** — PLONK circuits (circom/snarkjs) for Merkle inclusion and balance privacy
 * **P2P mesh** — WebSocket nodes with ed25519 identity, state sync, and conflict resolution
 * **AI education** — Claude-powered blockchain tutor with quiz scoring and learn-to-earn credits

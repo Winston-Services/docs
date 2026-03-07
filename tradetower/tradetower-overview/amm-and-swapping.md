@@ -20,7 +20,7 @@ X = 222.22 USDT
 
 You pay 222.22 USDT to buy 100 RKL. The price increased because the pool now has less RKL, so RKL is more scarce.
 
-This is the x \* y = k formula. It's simple, fair, and self-adjusting. No order book needed. No centralized exchange needed.
+This is the x * y = k formula. It's simple, fair, and self-adjusting. No order book needed. No centralized exchange needed.
 
 ## Slippage & Price Impact
 

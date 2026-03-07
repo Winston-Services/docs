@@ -29,7 +29,7 @@ Get a curated blockchain fact from the Winston knowledge base. Facts cover block
 Example facts:
 
 * Bitcoin's genesis block was mined on January 3, 2009
-* Constant-product AMMs maintain the invariant x \* y = k to prevent arbitrage
+* Constant-product AMMs maintain the invariant x * y = k to prevent arbitrage
 * Merkle trees allow efficient verification of large datasets
 
 ### /quiz — Test Your Knowledge

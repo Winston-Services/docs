@@ -90,7 +90,7 @@ If you add equal value of two tokens to a pool, and one token's price shoots up 
 * You add 100 RKL + 100 USDT
 * Later: RKL price is $2, USDT is still $1
 * If you had just held: 100 RKL = $200, 100 USDT = $100. Total = $300
-* If you had stayed in the pool: You'd have maybe 70 RKL + 130 USDT. Worth \~$280
+* If you had stayed in the pool: You'd have maybe 70 RKL + 130 USDT. Worth ~$280
 
 You made less money by being in the pool than if you'd just held. This is impermanent loss — the AMM automatically rebalanced as the price moved, and you ended up on the wrong side.
 

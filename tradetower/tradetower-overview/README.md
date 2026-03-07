@@ -83,7 +83,7 @@ Today it's Discord + REST. Tomorrow it could be Telegram, X, and web. One exchan
 
 #### On-Chain Anchoring
 
-L2 state commitments are anchored on-chain (Pepecoin OP\_RETURN) at regular intervals. Anyone can download and verify the entire transaction history using cryptographic proofs.
+L2 state commitments are anchored on-chain (Pepecoin OP_RETURN) at regular intervals. Anyone can download and verify the entire transaction history using cryptographic proofs.
 
 #### Node Operators
 

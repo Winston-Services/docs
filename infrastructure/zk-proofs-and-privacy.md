@@ -67,7 +67,7 @@ Currently, TradeTower is completing Phases 1–3a. Privacy features are active b
 
 {% hint style="info" %}
 * **Prove time**: 2–5 seconds on a modern CPU
-* **Proof size**: \~400 bytes
+* **Proof size**: ~400 bytes
 * **Verify time**: < 100ms
 * **Verification**: runs completely offline
 
