@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Winston Services
+  structure:
+    - type: space
+      key: space-1
+      title: Winston Services
+      path: winston-services
+      default: true
+      content:
+        directory: ./winston-services
